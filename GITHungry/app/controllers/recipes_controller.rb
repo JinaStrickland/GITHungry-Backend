@@ -6,7 +6,7 @@ class RecipesController < ApplicationController
         @instructions = Recipe.all.map {|recipe| JSON.parse(recipe.instructions)}
         @tags = Recipe.all.map {|recipe| JSON.parse(recipe.tags)}
 
-        render json: Recipe.all 
+        render json: @recipe
     end
 
     def show 
