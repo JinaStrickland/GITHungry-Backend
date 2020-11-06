@@ -1,0 +1,2 @@
+class AddSourceUrlToRecipe < ApplicationRecord
+end

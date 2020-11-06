@@ -1,6 +1,11 @@
 class RecipesController < ApplicationController
 
     def index
+        @recipe = Recipe.all
+        @ingredients = Recipe.all.map {|recipe| JSON.parse(recipe.ingredients)}
+        @instructions = Recipe.all.map {|recipe| JSON.parse(recipe.instructions)}
+        @tags = Recipe.all.map {|recipe| JSON.parse(recipe.tags)}
+
         render json: Recipe.all 
     end
 
