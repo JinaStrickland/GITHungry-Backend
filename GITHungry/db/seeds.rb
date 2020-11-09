@@ -11,7 +11,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 20, 
   servings: 6,
-  tags: ["Soups and Stews", "Poultry"], 
+  tags: ["Poultry"], 
   image: "https://www.rachelcooks.com/wp-content/uploads/2016/03/sausage-bean-kale-tomato-stew-600-4-of-4-600x712.jpg", 
   sourceURL: "https://www.rachelcooks.com/2016/04/01/italian-sausage-stew-white-beans-kale/"
 })
@@ -77,11 +77,11 @@ Recipe.create({
   cooking_time: 30, 
   servings: 2,
   tags: ["Seafood", "Egg Free"], 
-  image: "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg", 
+  image: "https://food-fanatic-res.cloudinary.com/iu/s--f_2c4Urb--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1394132286/whiskey-mussels-en-papilotte-image.jpg", 
   sourceURL: "https://www.foodfanatic.com/gallery/whiskey-mussels-en-papilotte-image/"
   })
 
-Recipe.create(
+Recipe.create({
   title: "Sesame-Crusted Tuna Steaks",
   ingredients: ["4 tuna steaks (1-inch thick, about 6 ounces each)",
   "1/3 cup white sesame seeds",
@@ -98,9 +98,9 @@ Recipe.create(
   tags: ["Dairy Free", "Gluten Free","Vegan", "Vegetarian"], 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/sesame-crusted-tuna-steaks.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/sesame-crusted-tuna-steaks/"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Shrimp Tacos with Corn and Avocado Salsa",
   ingredients: ["1-1/4 lbs large shrimp, peeled, deveined, tails removed",
   "2 tablespoons olive oil",
@@ -129,9 +129,9 @@ Recipe.create(
   tags: ["Seafood", "Healthy"], 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/shrimp-tacos-corn-avocado-salsa.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/shrimp-tacos-corn-avocado-salsa/"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Sweet and Sour Chicken with Pineapple",
   ingredients: ["1-1/4 lbs chicken tenderloins",
   "1-1/2 tablespoons cornstarch",
@@ -154,9 +154,9 @@ Recipe.create(
   tags: ["Poultry", "Egg Free"], 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/sweet-sour-chicken.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/sweet-and-sour-chicken-with-pineapple/"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Grilled Salmon Kebabs",
   ingredients: ["2 tbsp chopped fresh oregano",
   "2 tsp sesame seeds",
@@ -167,7 +167,7 @@ Recipe.create(
   "olive oil cooking spray",
   "1 tsp kosher salt",
   "16 bamboo skewers soaked in water 1 hour"],
-  instructions: "1. Heat the grill on medium heat and spray the grates with oil.", "2. Mix oregano, sesame seeds, cumin, and red pepper flakes in a small bowl to combine; set spice mixture aside.", "3. Beginning and ending with salmon, thread salmon and folded lemon slices onto 8 pairs of parallel skewers to make 8 kebabs total.", "4. Spray the fish lightly with oil and season kosher salt and the reserved spice mixture.", "5. Grill the fish, turning occasionally, until fish is opaque throughout, about 8 to 10 minutes total.", 
+  instructions: ["1. Heat the grill on medium heat and spray the grates with oil.", "2. Mix oregano, sesame seeds, cumin, and red pepper flakes in a small bowl to combine; set spice mixture aside.", "3. Beginning and ending with salmon, thread salmon and folded lemon slices onto 8 pairs of parallel skewers to make 8 kebabs total.", "4. Spray the fish lightly with oil and season kosher salt and the reserved spice mixture.", "5. Grill the fish, turning occasionally, until fish is opaque throughout, about 8 to 10 minutes total."], 
   cuisine_type: "American", 
   meal_type: "Main Dish", 
   cooking_time: 25, 
@@ -175,11 +175,11 @@ Recipe.create(
   tags: ["Fish", "Healthy", "Egg Free"], 
   image: "https://www.skinnytaste.com/wp-content/uploads/2013/06/grilled-salmon-kabobs-550x365.jpg", 
   sourceURL: "https://www.skinnytaste.com/these-lovely-grilled-salmon-and-lemon/"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Sweet Potato Hash Protein Bowl",
-  ingredients: "2 tablespoons olive oil",
+  ingredients: ["2 tablespoons olive oil",
   "1 tablespoon minced garlic",
   "1 large sweet potato, peeled",
   "1 red pepper, finely diced",
@@ -188,7 +188,7 @@ Recipe.create(
   "4 cups kale, deboned",
   "salt and pepper to taste (be generous!)",
   "2 tablespoons balsamic vinegar"],
-  instructions: "1. Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat.", "2. Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this.", "3. Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent.", "4. Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar.", "5. Give your sweet potato hash one last toss and enjoy!", 
+  instructions: ["1. Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat.", "2. Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this.", "3. Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent.", "4. Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar.", "5. Give your sweet potato hash one last toss and enjoy!"], 
   cuisine_type: "American", 
   meal_type: "Main Dish", 
   cooking_time: 35, 
@@ -196,9 +196,9 @@ Recipe.create(
   tags: ["Dairy Free", "Gluten Free", "Egg Free"], 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg", 
   sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Homemade Guacamole",
   ingredients: ["3 large avocados ripe",
   "3 cloves garlic, smashed and minced (~1.5 tablespoons)",
@@ -215,9 +215,9 @@ Recipe.create(
   tags: ["Dairy Free", "Gluten Free", "Vegan", "Vegetarian", "Egg Free", "Nut Free"], 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg", 
   sourceURL: "https://fitfoodiefinds.com/classic-guacamole/"
-)
+})
 
-Recipe.create(
+Recipe.create({
   title: "Instant Pot Honey Garlic Chicken Thighs",
   ingredients: ["2 lbs. chicken thighs, skin-on",
   "1.5 tablespoons olive oil",
@@ -233,6 +233,6 @@ Recipe.create(
   cooking_time: 30, 
   servings: 6,
   tags: ["Dairy Free", "Gluten Free", "Egg Free"], 
-  image: "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg", 
-  sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
-)
+  image: "https://fitfoodiefinds.com/wp-content/uploads/2020/01/thighs.jpg", 
+  sourceURL: "https://fitfoodiefinds.com/instant-pot-honey-garlic-chicken-thighs/"
+})
