@@ -2,9 +2,9 @@ class RecipesController < ApplicationController
 
     def index
         @recipe = Recipe.all
-        @ingredients = Recipe.all.map {|recipe| JSON.parse(recipe.ingredients)}
-        @instructions = Recipe.all.map {|recipe| JSON.parse(recipe.instructions)}
-        @tags = Recipe.all.map {|recipe| JSON.parse(recipe.tags)}
+        # @ingredients = Recipe.all.map {|recipe| JSON.parse(recipe.ingredients)}
+        # @instructions = Recipe.all.map {|recipe| JSON.parse(recipe.instructions)}
+        # @tags = Recipe.all.map {|recipe| JSON.parse(recipe.tags)}
 
         render json: @recipe
     end
@@ -14,8 +14,8 @@ class RecipesController < ApplicationController
     end
 
     def create 
-        recipe = Recipe.create(recipe_params)
-        render json: recipe
+        @recipe = Recipe.create(recipe_params)
+        render json: @recipe
     end
 
     def update 
