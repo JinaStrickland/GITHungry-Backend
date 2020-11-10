@@ -69,6 +69,39 @@ Recipe.create({
 })
 
 Recipe.create({
+  title: "Citrus Salad with Dates",
+  ingredients: ["4 tablespoons olive oil",
+  "2 tablespoons vinegar (champagne vinegar, sherry vinegar, red wine vinegar, apple cider vinegar)",
+  "2 tablespoons orange juice",
+  "1 tablespoon lemon juice or lime",
+  "1 tablespoon shallot (finely chopped) or sub 1 garlic clove, finely minced",
+  "1/4 teaspoon salt (more to taste)",
+  "1/4 teaspoon pepper",
+  "1/4 cup coconut flakes, toasted",
+  "1/4 cup thinly sliced red onion",
+  "3-5 oranges, peeled and sliced",
+  "2-3 large handfuls of baby arugula (or baby spinach)",
+  "1/4 cup chooped or sliced medjool dates",
+  "1/4 cup pistachios, pecan pieces or sliced almonds",
+  "fresh mint or italian parsley"],
+  instructions: [
+    "1. Stir everything together in a small bowl.",
+    "2. Toast the coconut (in a dry skillet over low heat) and soak red onions in a bowl of salted water.",
+    "3. Cut the rinds off the oranges. Slice into 1/4 inch thick rounds.",
+    "4. Place the arugula (or baby spinach) on a platter to form the base of the salad. Layer the orange slices over top. Sprinkle with the chopped dates, nuts and toasted coconut.",
+    "5. Drain and scatter the red onions. Add some mint leaves and spoon the dressing over top.",
+    "6. Add cracked pepper as needed.",
+    "7. Serve immediately."],
+  cuisine_type: "Moroccan",
+  meal_type: "Main Dish",
+  cooking_time: 25,
+  servings: 4-6,
+  tags: ["Vegan", "Vegetarian", "Dairy Free"],
+  image: "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg",
+  sourceURL: "https://www.feastingathome.com/citrus-salad/"
+})
+
+Recipe.create({
   title: "Whiskey Mussels en Papillote Recipe",
   ingredients: ["2 pounds Live Mussel debearded and scrubbed", "1 medium Shallot finely diced", "1/4 ounce Dried Tarragon, fresh sprigs", "1 tablespoon Lemon Zest approximiately 1 lemon's worth", "1/4 cup Irish Whiskey such as Bushmills", "2 tablespoons Olive Oil", "Sea Salt", "Black Pepper, freshly ground"],
   instructions: ["1. Preheat oven to 450°F.", "2. Lay out two long sheets (~24 inches each) of heavy duty foil; fold each one in half. Set half of the mussels on each piece of foil, then cup the edges of the foil to hold everything in for now.", "3. Scatter half of the diced shallots over each portion. Pull the leaves from the tarragon sprigs and scatter over the mussels, along with the lemon zest. Pour half of the whiskey and olive oil over each portion. Sprinkle each with a few pinches of salt and pepper.", "4. Bring the edges of the foil up and fold to form a packet that encompasses everything inside. Set the packets in a baking dish or on a baking sheet (to catch any juices that escape). Slide into preheated oven and bake for 10-12 minutes, or until all of the shells have opened (discard any that do not open).", "5. In the meantime, combine all of the ingredients for the vinaigrette in a small jar with a lid and shake hard to combine.", "6. Carefully open each parcel (the steam will be hot!). Set each parcel on a deep-sided serving plate or shallow bowl and open just before you eat, letting the steam waft up into your nose.  You could also transfer each portion directly to the serving vessel. Shake up the vinaigrette again, and pour over the mussels before diving in, preferably with some crusty bread for mopping up the juices and a dram of whiskey to accent the flavors."], 
@@ -129,6 +162,38 @@ Recipe.create({
   tags: ["Seafood", "Healthy"], 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/shrimp-tacos-corn-avocado-salsa.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/shrimp-tacos-corn-avocado-salsa/"
+})
+
+Recipe.create({
+  title: "Vegan Ramen with Miso Shiitake Broth",
+  ingredients: ["1 large onion-diced",
+  "2 smashed garlic cloves",
+  "1-2 tablespoon olive oil",
+  "4 cups veggie stock",
+  "4 cups water",
+  "1/2 cup dried shiitake mushrooms",
+  "1 sheet kombu seaweed",
+  "1/8 cup mirin",
+  "1-2 tablespoons white miso paste",
+  "pepper to taste",
+  "sriracha or hot chili oil for spicy (optional)",
+  "6-8 ounces ramen noodles",
+  "8 ounces cubed crispy tofu",
+  "optional veggies: steamed or sauteed bok choy, fresh spinach, shredded carrots or cabbage, roasted sweet potato, sauteed mushrooms, baby corn, bamboo shoots, enoki mushrooms, kimchi, daikon radish, pickled radish, fresh herbs, scallion, toasted sesame seeds"],
+  instructions: [
+    "1. Toss bite-sized pieces of veggies with a little olive oil, salt, and pepper and place on a parchment-lined sheet pan and roast in a 400F oven until fork tender.",
+    "2. Broth: Over medium-high heat, saute the onion in 1 tablespoon oil until tender about 3 minutes. Turn heat to medium, add the smashed garlic cloves and continue cooking the onions until they are deeply golden brown. Add the veggie stock, water, dried shiitakes, a sheet of kombu and mirin. Bring to a simmer.",
+    "3. Simmer for 25-30 minutes uncovered on med heat, then remove the kombu. Add the miso, and pepper to taste. Adjust salt to your liking. Keep warm.",
+    "4. Cook the ramen noodles in a pot of boiling water. Drain. Toss with sesame oil to keep separated.",
+    "5. Prepare optional veggies for toppings. Use a combo of fresh and cooked veggies for the best texture. Make the crispy tofu.",
+    "6. Fill bowls with cooked noodles, crispy tofu and other veggies. Pour the flavorful shiitake broth over top. Garnish with a little drizzle of sesame oil and sriracha. Top with scallions and sesame seeds."],
+  cuisine_type: "Asian",
+  meal_type: "Main Dish",
+  cooking_time: 40,
+  servings: 4,
+  tags: ["Vegan", "Vegetarian", "Dairy Free"],
+  image: "https://www.feastingathome.com/wp-content/uploads/2012/11/vegan-ramen-14-1024x1536.jpg",
+  sourceURL: "https://www.feastingathome.com/smoked-shiitake-ramen/"
 })
 
 Recipe.create({
@@ -235,4 +300,30 @@ Recipe.create({
   tags: ["Dairy Free", "Gluten Free", "Egg Free"], 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2020/01/thighs.jpg", 
   sourceURL: "https://fitfoodiefinds.com/instant-pot-honey-garlic-chicken-thighs/"
+})
+
+Recipe.create({
+  title: "French Potato Salad",
+  ingredients: ["2 pounds fresh potatoes, sliced 1/4 inch thick",
+  "2 tablespoons of sea salt",
+  "2 large garlic cloves",
+  "1 tablespoon digon mustard",
+  "1/4 cup champagne vinegar or white wine vinegar",
+  "1/3 cup olive oil",
+  "1/4 teaspoon black pepper",
+  "1/4 cup fresh flat-leaf parsley, roughly chopped",
+  "2 tablespoons fresh tarragon, roughly chopped",
+  "2 tablespoons fresh chives, minced"],
+  instructions: [
+    "1. Place the sliced potatoes in a large saucepan cover completely with cold water. Sprinkle in salt and bring to a boil. Add the 2 cloves of garlic, reduce heat and simmer 5 minutes or until potatoes are just tender.",
+    "2. White potatoes are simmering, make the vinaigrette by whisking together dijon, oil, vinegar and  pepper in a small bowl.",
+    "3. Drain potatoes and garlic. Place potatoes mostly single layer on a baking sheet to cool. Mince the cooked garlic and add to the vinaigrette. Drizzle the vinaigrette evenly over the warm potatoes. Let sit at room temperature for about 10-15 minutes.",
+    "4. Add to a serving bowl gently tossing the chopped fresh herbs. Serve at room temp or refrigerate and chill."],
+  cuisine_type: "American",
+  meal_type: "Sides",
+  cooking_time: "15",
+  servings: "6-8",
+  tags: ["Vegan", "Vetarian", "Dairy Free"],
+  image: "https://www.feastingathome.com/wp-content/uploads/2020/09/French-Potato-Salad-Recipe_-3-1024x1536.jpg",
+  sourceURL: "https://www.feastingathome.com/french-potato-salad/"
 })
