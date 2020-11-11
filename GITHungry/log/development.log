@@ -4039,3 +4039,910 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 63ms (Views: 16.9ms | ActiveRecord: 45.3ms | Allocations: 4869)
 
 
+Started GET "/recipes/79" for ::1 at 2020-11-10 17:32:39 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 72ms (Views: 0.7ms | ActiveRecord: 18.3ms | Allocations: 13633)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 17:32:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.5ms | Allocations: 4871)
+
+
+Started GET "/recipes/87" for ::1 at 2020-11-10 17:32:48 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"87"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 87], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 1.1ms | Allocations: 902)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 17:32:58 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 4868)
+
+
+Started GET "/recipes/92" for ::1 at 2020-11-10 17:33:01 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"92"}
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 92], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.7ms | Allocations: 901)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 17:33:15 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 10.6ms | ActiveRecord: 6.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:24:30 -0500
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 124ms (Views: 34.8ms | ActiveRecord: 79.6ms | Allocations: 17118)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:25:22 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (10.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 8.2ms | ActiveRecord: 10.6ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:25:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.6ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:26:04 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 1.2ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:35:39 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (242.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 267ms (Views: 24.0ms | ActiveRecord: 242.7ms | Allocations: 4951)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:39:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (145.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 166ms (Views: 20.7ms | ActiveRecord: 145.0ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:40:26 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:40:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:40:40 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.6ms | Allocations: 4851)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:40:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (42.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 51ms (Views: 8.4ms | ActiveRecord: 42.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:44:01 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (8.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 12.5ms | ActiveRecord: 8.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:44:01 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:52:24 -0500
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 80ms (Views: 59.5ms | ActiveRecord: 8.2ms | Allocations: 17152)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:52:51 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 2.1ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:53:34 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (15.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 26ms (Views: 10.8ms | ActiveRecord: 15.3ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:54:11 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:55:20 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (31.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 12.8ms | ActiveRecord: 31.0ms | Allocations: 4851)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:56:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 17.9ms | ActiveRecord: 4.2ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:56:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 1.0ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:56:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (34.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 53ms (Views: 17.5ms | ActiveRecord: 34.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:57:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 1.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:57:41 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (44.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 91ms (Views: 46.2ms | ActiveRecord: 44.8ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:57:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (34.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 9.4ms | ActiveRecord: 34.3ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 20:59:32 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (24.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 34ms (Views: 9.3ms | ActiveRecord: 24.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:10:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (15.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 25.7ms | ActiveRecord: 15.1ms | Allocations: 4938)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:12:08 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (48.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 65ms (Views: 15.6ms | ActiveRecord: 48.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:12:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.5ms | Allocations: 4850)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:13:21 -0500
+Started GET "/recipes" for ::1 at 2020-11-10 21:13:21 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 133ms (Views: 0.8ms | ActiveRecord: 63.9ms | Allocations: 2884)
+
+
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.3ms | Allocations: 4938)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:13:48 -0500
+Started GET "/recipes" for ::1 at 2020-11-10 21:13:48 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (23.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 28ms (Views: 0.9ms | ActiveRecord: 23.3ms | Allocations: 994)
+
+
+  [1m[36mRecipe Load (25.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 92ms (Views: 66.6ms | ActiveRecord: 25.3ms | Allocations: 5904)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:13:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (35.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 8.8ms | ActiveRecord: 35.3ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:14:51 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 5.0ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:14:57 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:15:31 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 3.6ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:16:23 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:16:23 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 52ms (Views: 13.1ms | ActiveRecord: 38.3ms | Allocations: 4850)
+
+
+Started GET "/recipes/80" for ::1 at 2020-11-10 21:16:26 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"80"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 80], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 8.6ms | Allocations: 916)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:16:34 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.6ms | Allocations: 4850)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:16:36 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:17:06 -0500
+Started GET "/recipes" for ::1 at 2020-11-10 21:17:06 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Processing by RecipesController#index as */*
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 1.7ms | Allocations: 1284)
+
+
+  [1m[36mRecipe Load (32.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 53ms (Views: 20.2ms | ActiveRecord: 32.1ms | Allocations: 5048)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:17:11 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 12.2ms | ActiveRecord: 5.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:17:24 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (27.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 34ms (Views: 5.9ms | ActiveRecord: 27.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:17:28 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (10.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 11.0ms | ActiveRecord: 10.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:18:34 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (10.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 8.6ms | ActiveRecord: 10.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:18:39 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (9.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 9.0ms | ActiveRecord: 9.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:18:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:18:53 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.6ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:18:57 -0500
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:18:57 -0500
+Processing by RecipesController#index as */*
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (2.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.8ms | Allocations: 888)
+
+
+  [1m[36mRecipe Load (98.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 110ms (Views: 11.2ms | ActiveRecord: 98.3ms | Allocations: 6408)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:19:23 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 1.5ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:20:08 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (43.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 47ms (Views: 0.8ms | ActiveRecord: 43.8ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:21:36 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 889)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:21:59 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (10.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 10.0ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:23:04 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:23:11 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 2.3ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:23:41 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (27.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 27.2ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:24:17 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:25:17 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (3.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 3.1ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:25:39 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (26.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 28ms (Views: 0.8ms | ActiveRecord: 26.0ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:26:05 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 1.2ms | Allocations: 887)
+
+
+Started GET "/recipes/79" for ::1 at 2020-11-10 21:26:35 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"79"}
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 887)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:30:24 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (176.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 268ms (Views: 65.4ms | ActiveRecord: 176.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:32:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (24.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 40ms (Views: 14.9ms | ActiveRecord: 24.8ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:32:41 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (37.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 56ms (Views: 18.0ms | ActiveRecord: 37.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:33:59 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (33.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 50ms (Views: 16.3ms | ActiveRecord: 33.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:34:57 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (20.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 54ms (Views: 25.9ms | ActiveRecord: 20.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:37:36 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (180.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 297ms (Views: 115.7ms | ActiveRecord: 180.3ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:37:40 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (49.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 66ms (Views: 16.4ms | ActiveRecord: 49.0ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:38:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (74.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 95ms (Views: 19.9ms | ActiveRecord: 74.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:39:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 3.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:39:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (7.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 26ms (Views: 18.2ms | ActiveRecord: 7.0ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:40:06 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 1.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:42:37 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (35.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 51ms (Views: 15.7ms | ActiveRecord: 35.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:42:41 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (31.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 57ms (Views: 24.9ms | ActiveRecord: 31.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:45:50 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (29.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 129ms (Views: 97.8ms | ActiveRecord: 29.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:45:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (59.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 83ms (Views: 22.5ms | ActiveRecord: 59.6ms | Allocations: 4852)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:46:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (52.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 62ms (Views: 8.5ms | ActiveRecord: 52.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:46:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (9.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 9.6ms | ActiveRecord: 9.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:48:53 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (83.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 95ms (Views: 11.2ms | ActiveRecord: 83.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:49:14 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (88.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 104ms (Views: 14.8ms | ActiveRecord: 88.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:51:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 2.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:51:50 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (69.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 88ms (Views: 18.2ms | ActiveRecord: 69.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:52:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:53:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (94.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 134ms (Views: 39.9ms | ActiveRecord: 94.2ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:54:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:54:15 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (12.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 38ms (Views: 25.1ms | ActiveRecord: 12.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:54:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (131.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 149ms (Views: 16.4ms | ActiveRecord: 131.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:56:42 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (37.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 64ms (Views: 25.7ms | ActiveRecord: 37.3ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:58:24 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (48.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 106ms (Views: 57.9ms | ActiveRecord: 48.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:58:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (51.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 97ms (Views: 45.3ms | ActiveRecord: 51.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:58:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (44.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 144ms (Views: 95.6ms | ActiveRecord: 44.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 21:59:59 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:00:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 3.0ms | Allocations: 4851)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:03:14 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 55ms (Views: 16.0ms | ActiveRecord: 38.6ms | Allocations: 4851)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:03:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 54ms (Views: 15.3ms | ActiveRecord: 38.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:04:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (224.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 252ms (Views: 25.9ms | ActiveRecord: 224.8ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:04:58 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (12.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 27ms (Views: 14.1ms | ActiveRecord: 12.1ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:05:05 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (97.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 122ms (Views: 24.2ms | ActiveRecord: 97.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:07:03 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 2.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:08:28 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 11.8ms | ActiveRecord: 5.9ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:08:44 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 82ms (Views: 79.2ms | ActiveRecord: 2.3ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:10:07 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 3.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:10:13 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (9.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 21ms (Views: 10.8ms | ActiveRecord: 9.7ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:11:37 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 2.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:11:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 4.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:11:57 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 4.4ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:12:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (56.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 67ms (Views: 10.4ms | ActiveRecord: 56.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:12:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 50ms (Views: 11.3ms | ActiveRecord: 38.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:13:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 3.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:14:03 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (49.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 123ms (Views: 73.2ms | ActiveRecord: 49.2ms | Allocations: 4853)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:14:39 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (110.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 121ms (Views: 9.7ms | ActiveRecord: 110.5ms | Allocations: 4851)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:14:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 1.2ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:14:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 4850)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:18:43 -0500
+  [1m[35m (89.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/recipes" for ::1 at 2020-11-10 22:18:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (423.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (85.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 1101ms (Views: 108.9ms | ActiveRecord: 968.9ms | Allocations: 20444)
+
+
+Completed 200 OK in 433ms (Views: 15.8ms | ActiveRecord: 415.6ms | Allocations: 18493)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:19:51 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (45.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 67ms (Views: 20.7ms | ActiveRecord: 45.6ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:19:59 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (10.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 28ms (Views: 16.8ms | ActiveRecord: 10.4ms | Allocations: 4868)
+
+
+Started GET "/recipes" for ::1 at 2020-11-10 22:20:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 4.1ms | Allocations: 4868)
+
+
