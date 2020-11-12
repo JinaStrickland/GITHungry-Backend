@@ -15,7 +15,8 @@ class RecipesController < ApplicationController
     end
 
     def update 
-        @recipe = recipe.update(find_recipe)
+        find_recipe
+        @recipe.update(recipe_params)
         render json: @recipe
     end
 
@@ -43,7 +44,7 @@ class RecipesController < ApplicationController
     end
 
     def recipe_params
-        params.require(:recipe).permit(:ingredients, :instructions, :cuisine_type, :cooking_time, :tag, :user_ratings, :servings, :user_comments, :image, :rating)
+        params.require(:recipe).permit(:ingredients, :instructions, :cuisine_type, :title, :cooking_time, :tag, :user_ratings, :servings, :user_comments, :image, :rating)
     end
     
 end
