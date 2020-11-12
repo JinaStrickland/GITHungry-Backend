@@ -10,6 +10,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 20, 
   servings: 6,
+  rating: 0,
   tags: "Poultry", 
   image: "https://www.rachelcooks.com/wp-content/uploads/2016/03/sausage-bean-kale-tomato-stew-600-4-of-4-600x712.jpg", 
   sourceURL: "https://www.rachelcooks.com/2016/04/01/italian-sausage-stew-white-beans-kale/"
@@ -23,6 +24,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 30, 
   servings: 4,
+  rating: 0,
   tags: "Fish * Healthy", 
   image: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/16/3/FNM_010116-Salmon-with-Sesame-Ginger-Quinoa-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1450719022163.jpeg", 
   sourceURL: "https://www.foodnetwork.com/recipes/emilia-cirker/salmon-with-sesame-ginger-quinoa-3364685"
@@ -36,6 +38,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 25, 
   servings: 3,
+  rating: 0,
   tags: "Noodles * Gluten Free * Vegetarian * Vegan", 
   image: "https://inspiralized.com/wp-content/uploads/2014/09/IMG_2959-copy.jpg", 
   sourceURL: "https://inspiralized.com/tofu-scramble-with-broccoli-noodles/"
@@ -49,6 +52,7 @@ Recipe.create({
   meal_type: "Sides", 
   cooking_time: 25, 
   servings: 3,
+  rating: 0,
   tags: "Dairy Free * Gluten Free * Vegan * Vegetarian", 
   image: "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg", 
   sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
@@ -62,6 +66,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 30, 
   servings: 4,
+  rating: 0,
   tags: "Dairy Free * Gluten Free", 
   image: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F08%2F27044833%2F3758136.jpg", 
   sourceURL: "http://www.eatingwell.com/recipe/250593/lamb-chops-with-mashed-peas-mint/"
@@ -75,6 +80,7 @@ Recipe.create({
   meal_type: "Main Dish",
   cooking_time: 25,
   servings: 4-6,
+  rating: 0,
   tags: "Vegan * Vegetarian * Dairy Free",
   image: "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg",
   sourceURL: "https://www.feastingathome.com/citrus-salad/"
@@ -88,6 +94,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 30, 
   servings: 2,
+  rating: 0,
   tags: "Seafood * Egg Free",
   image: "https://food-fanatic-res.cloudinary.com/iu/s--f_2c4Urb--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1394132286/whiskey-mussels-en-papilotte-image.jpg", 
   sourceURL: "https://www.foodfanatic.com/gallery/whiskey-mussels-en-papilotte-image/"
@@ -101,6 +108,7 @@ Recipe.create({
   meal_type: "Appetizer", 
   cooking_time: 10, 
   servings: 4,
+  rating: 0,
   tags: "Dairy Free * Gluten Free * Vegan * Vegetarian", 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/sesame-crusted-tuna-steaks.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/sesame-crusted-tuna-steaks/"
@@ -114,6 +122,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 25, 
   servings: 4,
+  rating: 0,
   tags: "Seafood * Healthy", 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/shrimp-tacos-corn-avocado-salsa.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/shrimp-tacos-corn-avocado-salsa/"
@@ -127,6 +136,7 @@ Recipe.create({
   meal_type: "Main Dish",
   cooking_time: 40,
   servings: 4,
+  rating: 0,
   tags: "Vegan * Vegetarian * Dairy Free",
   image: "https://www.feastingathome.com/wp-content/uploads/2012/11/vegan-ramen-14-1024x1536.jpg",
   sourceURL: "https://www.feastingathome.com/smoked-shiitake-ramen/"
@@ -140,6 +150,7 @@ Recipe.create({
   meal_type: "Main DIsh", 
   cooking_time: 35, 
   servings: 4,
+  rating: 0,
   tags: "Poultry * Egg Free", 
   image: "https://www.mygourmetconnection.com/wp-content/uploads/sweet-sour-chicken.jpg", 
   sourceURL: "https://www.mygourmetconnection.com/sweet-and-sour-chicken-with-pineapple/"
@@ -153,6 +164,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 25, 
   servings: 4,
+  rating: 0,
   tags: "Fish * Healthy * Egg Free", 
   image: "https://www.skinnytaste.com/wp-content/uploads/2013/06/grilled-salmon-kabobs-550x365.jpg", 
   sourceURL: "https://www.skinnytaste.com/these-lovely-grilled-salmon-and-lemon/"
@@ -166,6 +178,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 35, 
   servings: 4,
+  rating: 0,
   tags: "Dairy Free * Gluten Free * Egg Free", 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg", 
   sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
@@ -179,6 +192,7 @@ Recipe.create({
   meal_type: "Sides", 
   cooking_time: 10, 
   servings: 6,
+  rating: 0,
   tags: "Dairy Free * Gluten Free * Vegan * Vegetarian * Egg Free * Nut Free", 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg", 
   sourceURL: "https://fitfoodiefinds.com/classic-guacamole/"
@@ -192,6 +206,7 @@ Recipe.create({
   meal_type: "Main Dish", 
   cooking_time: 30, 
   servings: 6,
+  rating: 0,
   tags: "Dairy Free * Gluten Free * Egg Free", 
   image: "https://fitfoodiefinds.com/wp-content/uploads/2020/01/thighs.jpg", 
   sourceURL: "https://fitfoodiefinds.com/instant-pot-honey-garlic-chicken-thighs/"
@@ -205,7 +220,9 @@ Recipe.create({
   meal_type: "Sides",
   cooking_time: "15",
   servings: "6-8",
+  rating: 0,
   tags: "Vegan * Vetarian * Dairy Free",
   image: "https://www.feastingathome.com/wp-content/uploads/2020/09/French-Potato-Salad-Recipe_-3-1024x1536.jpg",
   sourceURL: "https://www.feastingathome.com/french-potato-salad/"
 })
+
