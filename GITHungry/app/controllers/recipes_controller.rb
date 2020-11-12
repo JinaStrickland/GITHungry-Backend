@@ -19,8 +19,8 @@ class RecipesController < ApplicationController
     end
 
     def update 
-        recipe.update(find_recipe)
-        render json: recipe
+        @recipe = recipe.update(find_recipe)
+        render json: @recipe
     end
 
     def destroy 
@@ -35,7 +35,7 @@ class RecipesController < ApplicationController
     end
 
     def recipe_params
-        params.require(:recipe).permit(:ingredients, :instructions, :cuisine_type, :cooking_time, :tag, :user_ratings, :servings, :user_comments, :image)
+        params.require(:recipe).permit(:ingredients, :instructions, :cuisine_type, :cooking_time, :tag, :user_ratings, :servings, :user_comments, :image, :rating)
     end
     
 end

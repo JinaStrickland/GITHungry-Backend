@@ -6011,3 +6011,874 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 1.2ms | Allocations: 5080)
 
 
+Started GET "/recipes" for ::1 at 2020-11-11 19:34:21 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 24.9ms | ActiveRecord: 10.0ms | Allocations: 17940)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 19:36:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 21ms (Views: 13.9ms | ActiveRecord: 6.3ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 19:37:44 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.7ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 19:41:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (31.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 66ms (Views: 33.7ms | ActiveRecord: 31.8ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 19:42:31 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.4ms | Allocations: 4980)
+
+
+Started GET "/recipes/95" for ::1 at 2020-11-11 19:42:42 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"95"}
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 95], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 56ms (Views: 2.5ms | ActiveRecord: 18.4ms | Allocations: 2891)
+
+
+Started POST "/recipes/95" for ::1 at 2020-11-11 19:53:13 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/recipes/95"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-11 19:53:19 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.5ms | Allocations: 5088)
+
+
+Started POST "/recipes/94" for ::1 at 2020-11-11 19:53:20 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/recipes/94"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 19:53:53 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 293ms (ActiveRecord: 0.0ms | Allocations: 105534)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a06f908>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 19:54:01 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.6ms | Allocations: 4979)
+
+
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 19:54:04 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 299ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19791a4e8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 19:58:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (13.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 202ms (Views: 50.7ms | ActiveRecord: 126.4ms | Allocations: 16862)
+
+
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 19:58:58 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms | Allocations: 105505)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a1076b8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 20:00:21 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 2.0ms | Allocations: 4979)
+
+
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:00:24 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a273740>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:00:53 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 346ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a1ab8a8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 20:00:54 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (40.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 51ms (Views: 10.7ms | ActiveRecord: 40.1ms | Allocations: 4979)
+
+
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:00:57 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a07d9b8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:02:04 -0500
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:02:04 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.0ms | Allocations: 105546)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193c812e8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 384ms (ActiveRecord: 0.0ms | Allocations: 105515)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a3db7b8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:02:53 -0500
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:02:53 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.0ms | Allocations: 106225)
+
+
+Completed 500 Internal Server Error in 381ms (ActiveRecord: 0.0ms | Allocations: 185203)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a3f91f0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193cf7c18>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:03:17 -0500
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:03:17 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 477ms (ActiveRecord: 0.0ms | Allocations: 183652)
+
+
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 0.0ms | Allocations: 138092)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a24bf88>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa1978f1ef8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:07:40 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 391ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa1979cb1f8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 20:08:35 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"94", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19794bb38>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 20:08:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 18ms (Views: 13.0ms | ActiveRecord: 4.7ms | Allocations: 5067)
+
+
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:08:44 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a10fb38>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:09:48 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.0ms | Allocations: 105505)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a4290f8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:10:43 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193b431d8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:11:09 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 305ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197a00fb0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:11:25 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197110360>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:12:04 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197076080>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:12:05 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 240ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193b1aa08>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:13:22 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms | Allocations: 105506)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193c303c0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:13:22 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193b25110>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:14:01 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a283a50>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:14:02 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 292ms (ActiveRecord: 0.0ms | Allocations: 105515)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a2ae700>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:14:13 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a40a1f8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:14:13 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | Allocations: 105506)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193bd9390>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:05 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a26ae38>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:05 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19a04f298>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:14 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa19799b8e0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:14 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 239ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197842188>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:30 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 257ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa1979818c8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:30 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.0ms | Allocations: 105515)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa196cef4c0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:44 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 0.0ms | Allocations: 105506)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197979448>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:15:45 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 259ms (ActiveRecord: 0.0ms | Allocations: 105507)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa196c20ad0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 20:26:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (25.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 33ms (Views: 8.0ms | ActiveRecord: 25.2ms | Allocations: 5067)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:37:58 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 1.0ms | Allocations: 5068)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:41:01 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:43:16 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (27.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 38ms (Views: 10.3ms | ActiveRecord: 27.5ms | Allocations: 4981)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:43:25 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:44:36 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.7ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:44:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (26.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 17.3ms | ActiveRecord: 26.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:44:57 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:45:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 34ms (Views: 28.8ms | ActiveRecord: 3.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:50:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (42.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 68ms (Views: 26.1ms | ActiveRecord: 42.1ms | Allocations: 4980)
+
+
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 20:52:43 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>1, "id"=>"95", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 0.0ms | Allocations: 105504)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa193b74648>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 20:57:13 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (9.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 9.7ms | ActiveRecord: 9.1ms | Allocations: 4979)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:57:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (43.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 54ms (Views: 10.1ms | ActiveRecord: 43.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 20:58:51 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (58.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 66ms (Views: 7.8ms | ActiveRecord: 58.0ms | Allocations: 4980)
+
+
+Started GET "/recipes/94" for ::1 at 2020-11-11 20:58:53 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"94"}
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 94], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:34:in `find_recipe'
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 1.2ms | Allocations: 1031)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:00:59 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (48.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 56ms (Views: 7.3ms | ActiveRecord: 48.3ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:01:13 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 3.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:03:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (35.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 46ms (Views: 11.1ms | ActiveRecord: 35.0ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:06:16 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (24.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 31ms (Views: 6.2ms | ActiveRecord: 24.3ms | Allocations: 4983)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:06:53 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (7.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 7.5ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:11:42 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:20:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 2.5ms | Allocations: 5068)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:22:42 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 1.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:23:37 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 4980)
+
+
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 21:23:45 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>nil, "id"=>"94", "recipe"=>{"rating"=>nil}}
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.0ms | Allocations: 105503)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fa197a3c380>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:22:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 21:24:46 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.8ms | Allocations: 4979)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:26:28 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:30:31 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:31:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 1.1ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:35:07 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (35.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 49ms (Views: 13.2ms | ActiveRecord: 35.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:41:13 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 1.8ms | Allocations: 5069)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:42:39 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:43:25 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 15ms (Views: 9.7ms | ActiveRecord: 4.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:45:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (57.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 88ms (Views: 30.5ms | ActiveRecord: 57.7ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 21:57:32 -0500
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 65ms (Views: 42.0ms | ActiveRecord: 10.0ms | Allocations: 17969)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:01:35 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (29.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 14.8ms | ActiveRecord: 29.4ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:02:22 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (40.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 52ms (Views: 11.4ms | ActiveRecord: 40.1ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:04:00 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 1.4ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:09:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (37.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 50ms (Views: 11.8ms | ActiveRecord: 37.9ms | Allocations: 5080)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:11:19 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 1.2ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:11:23 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:12:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 14.9ms | ActiveRecord: 3.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:13:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 2.6ms | Allocations: 4983)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:14:36 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (30.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 41ms (Views: 10.2ms | ActiveRecord: 30.2ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:15:58 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 1.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:17:21 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:17:44 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (34.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 46ms (Views: 11.4ms | ActiveRecord: 34.2ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:28:26 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 3.9ms | Allocations: 5068)
+
+
