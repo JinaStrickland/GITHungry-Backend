@@ -2,6 +2,11 @@
 User.destroy_all
 Recipe.destroy_all
 
+User.create({
+  username: "jina",
+  email: "jina@gmail.com"
+})
+
 Recipe.create({
   title: "Italian Sausace Stew with White Beans and Kale",
   ingredients: "1 teaspoon olive oil * 1 medium onion, diced (about 1 cup) * 2 medium carrots, diced (about 1 cup) * 20 ounces sweet Italian turkey sausage, casing removed * 4 firmly-packed cups of torn kale leaves (bite-sized pieces) * 1 can (14.5 ounce) Red Gold petite diced tomatoes with their juice * 1 can (15 ounce) great northern beans, drained and rinsed * 1 cup reduced sodium chicken broth (more if desired)",
@@ -226,3 +231,72 @@ Recipe.create({
   sourceURL: "https://www.feastingathome.com/french-potato-salad/"
 })
 
+Recipe.create({
+  title: "Citrus Salad with Dates V2",
+  ingredients: "4 tablespoons olive oil * 2 tablespoons vinegar (champagne vinegar, sherry vinegar, red wine vinegar, apple cider vinegar) * 2 tablespoons orange juice * 1 tablespoon lemon juice or lime * 1 tablespoon shallot (finely chopped) or sub 1 garlic clove, finely minced * 1/4 teaspoon salt (more to taste) * 1/4 teaspoon pepper * 1/4 cup coconut flakes, toasted * 1/4 cup thinly sliced red onion * 3-5 oranges, peeled and sliced * 2-3 large handfuls of baby arugula (or baby spinach) * 1/4 cup chooped or sliced medjool dates * 1/4 cup pistachios, pecan pieces or sliced almonds * fresh mint or italian parsley",
+  instructions: "Stir everything together in a small bowl. * Toast the coconut (in a dry skillet over low heat) and soak red onions in a bowl of salted water. * Cut the rinds off the oranges. Slice into 1/4 inch thick rounds. * Place the arugula (or baby spinach) on a platter to form the base of the salad. Layer the orange slices over top. Sprinkle with the chopped dates, nuts and toasted coconut. * Drain and scatter the red onions. Add some mint leaves and spoon the dressing over top * Add cracked pepper as needed. * Serve immediately.",
+  cuisine_type: "Moroccan",
+  meal_type: "Main Dish",
+  cooking_time: 25,
+  servings: 4-6,
+  rating: 0,
+  tags: "Vegan * Vegetarian * Dairy Free",
+  image: "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg",
+  sourceURL: "https://www.feastingathome.com/citrus-salad/"
+})
+
+Recipe.create({
+  title: "Salmon with Sesame-Ginger Quinoa V2",
+  ingredients: "1 1/2 tablespoons toasted sesame oil * 1 tablespoon grated peeled ginger, plus 1 inch thinly sliced * 1 cup quinoa, rinsed * Kosher salt * 3 heads baby bok choy (about 12 ounces), trimmed and thinly sliced * 1 red jalapeno pepper, seeded (1/2 minced, 1/2 thinly sliced) * 3 scallions, thinly sliced * 4 6-ounce skinless center-cut salmon fillets (preferably wild) * 3 tablespoons low-sodium soy sauce * Juice of 1 lemon * 1/4 cup fresh cilantro, torn", 
+  instructions: "Heat 1/2 tablespoon sesame oil in a medium saucepan over medium heat. Add the grated ginger; cook until slightly softened, 1 minute. Add the quinoa; cook, stirring occasionally, until lightly toasted, 2 minutes. Add 1 1/4 cups water and 1/4 teaspoon salt. Bring to a boil, then reduce the heat to medium low. Cover and cook until the water is absorbed and the quinoa is tender, about 12 minutes. * Add the bok choy, minced jalapeno and half of the scallions to the quinoa. Cook, covered, until the bok choy wilts, about 7 minutes. * Meanwhile, bring 3/4 cup water, the sliced ginger and sliced jalapeno to a boil in a large skillet over medium heat. Add the salmon. Cover and cook until just cooked through, 5 minutes. Transfer to a plate using a slotted spatula. Stir the soy sauce, lemon juice, remaining scallions and 1 tablespoon sesame oil into the poaching liquid. * Fluff the quinoa; season with salt. Serve with the salmon; drizzle with the soy sauce mixture and top with the cilantro.", 
+  cuisine_type: "Asian", 
+  meal_type: "Main Dish", 
+  cooking_time: 30, 
+  servings: 4,
+  rating: 0,
+  tags: "Fish * Healthy", 
+  image: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/16/3/FNM_010116-Salmon-with-Sesame-Ginger-Quinoa-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1450719022163.jpeg", 
+  sourceURL: "https://www.foodnetwork.com/recipes/emilia-cirker/salmon-with-sesame-ginger-quinoa-3364685"
+})
+
+Recipe.create({
+  title: "Homemade Guacamole V2",
+  ingredients: "3 large avocados ripe * 3 cloves garlic, smashed and minced (~1.5 tablespoons) * 1/3 medium red onion, finely diced * 1 medium lime, juice (or more, to taste) * 1/4 teaspoon sea salt (or more, to taste) * 2 tablespoons cilantro, freshly chopped * optional: 1/2 large jalapeno, finely diced",
+  instructions: "1. First, remove the flesh of the avocados and place it into a medium-size bowl. * Use a fork to mash avocado flesh until smooth. Alternatively, you can leave some chunks, if you prefer a more chunky guacamole. * Next, add in minced garlic, finely diced onion, lime juice, sea salt, and cilantro, and mix until combined. * Give guacamole a taste test and adjust the salt and lime juice depending on what it needs. * Serve with your favorite tortilla chips!", 
+  cuisine_type: "American", 
+  meal_type: "Sides", 
+  cooking_time: 10, 
+  servings: 6,
+  rating: 0,
+  tags: "Dairy Free * Gluten Free * Vegan * Vegetarian * Egg Free * Nut Free", 
+  image: "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg", 
+  sourceURL: "https://fitfoodiefinds.com/classic-guacamole/"
+})
+
+Recipe.create({
+  title: "Sweet Potato Hash Protein Bowl V2",
+  ingredients: "2 tablespoons olive oil * 1 tablespoon minced garlic * 1 large sweet potato, peeled * 1 red pepper, finely diced * 1/2 yellow onion, finely diced * 4 chicken sausages, precooked * 4 cups kale, deboned * salt and pepper to taste (be generous!) * 2 tablespoons balsamic vinegar",
+  instructions: "Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat. * Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this. * Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent. * Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar. * Give your sweet potato hash one last toss and enjoy!", 
+  cuisine_type: "American", 
+  meal_type: "Main Dish", 
+  cooking_time: 35, 
+  servings: 4,
+  rating: 0,
+  tags: "Dairy Free * Gluten Free * Egg Free", 
+  image: "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg", 
+  sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
+})
+
+Recipe.create({
+  title: "Brussels Sprouts with Chorizo, Raisins and Almonds V2",
+  ingredients: "1/4 cup (1oz) raisins (dark or golden) * 1lb brussels sprouts * 2 teaspoons olive oil * 1/4 cup finely chopped yellow onion * 1 clove of garlic, minced * 3oz soy chorizo, crumbled * 2 tablespoons (1/2 oz) sliced almonds * 1/8 teaspoon kosher salt * freshly ground black pepper, to taste",
+  instructions: "Place raisins in a small bowl and cover with hot water. * Trim the stems from the brussels sprouts and remove the outer leaves. Using a slicing attachment on a food processor, slice the brussels sprouts. Set aside. * Heat olive oil in a nonstick skillet over medium-low heat. Place onions in the skillet and cook for 4-5 minutes, stirring often, until softened and beginning to brown. Add garlic and cook 1 minute more. Add the brussels sprouts, increase heat to medium-high, and cook for about 10 minutes, stirring occasionally. The brussels sprouts should be crisp-tender and browned in spots. Add the chorizo and sliced almonds. Drain raisins and add to the skillet. Cook, stirring, 3 minutes more, until mixture is heated through. Season with salt and black pepper to taste.", 
+  cuisine_type: "American", 
+  meal_type: "Sides", 
+  cooking_time: 25, 
+  servings: 3,
+  rating: 0,
+  tags: "Dairy Free * Gluten Free * Vegan * Vegetarian", 
+  image: "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg", 
+  sourceURL: "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"
+})

@@ -1,12 +1,8 @@
 class RecipesController < ApplicationController
 
     def index
-        @recipe = Recipe.all
-        # @ingredients = Recipe.all.map {|recipe| JSON.parse(recipe.ingredients)}
-        # @instructions = Recipe.all.map {|recipe| JSON.parse(recipe.instructions)}
-        # @tags = Recipe.all.map {|recipe| JSON.parse(recipe.tags)}
-
-        render json: @recipe
+        @recipes = Recipe.all
+        render json: @recipes
     end
 
     def show 
@@ -24,8 +20,20 @@ class RecipesController < ApplicationController
     end
 
     def destroy 
-        recipe.destroy 
-        render json: {message: "Recipe has been deleted"}
+        recipes = Recipe.all
+        @recipe = find_recipe
+        if @recipe.destroy
+            render json: {
+                recipes: recipes, 
+                errors: "Recipe has been Deleted",
+                success: true
+            }
+        else 
+            render json: {
+                success: false,
+                errors: recipe.errors.full_messages
+            }
+        end
     end
 
     private

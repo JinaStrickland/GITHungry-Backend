@@ -6882,3 +6882,2020 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 3.9ms | Allocations: 5068)
 
 
+Started GET "/recipes" for ::1 at 2020-11-11 22:32:11 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (14.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 120ms (Views: 44.2ms | ActiveRecord: 55.9ms | Allocations: 17938)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:33:20 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 2.3ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:38:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (12.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 73ms (Views: 59.8ms | ActiveRecord: 12.6ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:44:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (10.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 46ms (Views: 34.7ms | ActiveRecord: 10.5ms | Allocations: 5080)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:46:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (201.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 249ms (Views: 47.3ms | ActiveRecord: 201.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:48:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 1.0ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:49:07 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 45ms (Views: 37.5ms | ActiveRecord: 6.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:51:33 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 2.5ms | Allocations: 4983)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:52:25 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (33.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 44ms (Views: 9.8ms | ActiveRecord: 33.6ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:53:01 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (39.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 57ms (Views: 17.9ms | ActiveRecord: 39.0ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 22:53:31 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (7.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 13.1ms | ActiveRecord: 7.0ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:14:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (125.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 291ms (Views: 114.9ms | ActiveRecord: 125.3ms | Allocations: 16369)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:15:20 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (84.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 103ms (Views: 17.5ms | ActiveRecord: 84.8ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:16:05 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (95.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 108ms (Views: 12.1ms | ActiveRecord: 95.0ms | Allocations: 4980)
+
+
+Started PATCH "/recipes/94" for ::1 at 2020-11-11 23:16:12 -0500
+Processing by RecipesController#update as JSON
+  Parameters: {"rating"=>"[object Object]1", "id"=>"94", "recipe"=>{"rating"=>"[object Object]1"}}
+Completed 500 Internal Server Error in 401ms (ActiveRecord: 0.0ms | Allocations: 105533)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fddfc3f10b0>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:18:in `update'
+Started GET "/recipes" for ::1 at 2020-11-11 23:17:22 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (43.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 61ms (Views: 17.4ms | ActiveRecord: 43.4ms | Allocations: 4979)
+
+
+Started PATCH "/recipes/95" for ::1 at 2020-11-11 23:17:47 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"rating"=>"[object Object]1", "id"=>"95", "recipe"=>{"rating"=>"[object Object]1"}}
+Completed 500 Internal Server Error in 405ms (ActiveRecord: 0.0ms | Allocations: 105557)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fddfc5ad520>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:18:in `update'
+Started GET "/" for ::1 at 2020-11-11 23:26:32 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.8ms | Allocations: 315)
+Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+Started GET "/routes" for ::1 at 2020-11-11 23:26:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:34:21 -0500
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:42:07 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:42:07 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (86.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 179ms (Views: 92.6ms | ActiveRecord: 86.3ms | Allocations: 5340)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:43:33 -0500
+Started GET "/recipes" for ::1 at 2020-11-11 23:43:33 -0500
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (32.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 56ms (Views: 21.6ms | ActiveRecord: 32.6ms | Allocations: 5031)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:43:37 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:43:37 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (10.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 11.5ms | ActiveRecord: 10.9ms | Allocations: 5659)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:44:33 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:44:33 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (56.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 12.5ms | ActiveRecord: 56.0ms | Allocations: 5668)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:47:44 -0500
+Started GET "/recipes" for ::1 at 2020-11-11 23:47:44 -0500
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (45.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 11.4ms | ActiveRecord: 45.4ms | Allocations: 5118)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:47:50 -0500
+Started GET "/recipes" for ::1 at 2020-11-11 23:47:50 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (5.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 21.8ms | ActiveRecord: 5.9ms | Allocations: 5668)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:48:06 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:48:06 -0500
+Processing by BookmarksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (8.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 11.1ms | ActiveRecord: 8.2ms | Allocations: 4980)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:48:18 -0500
+Started GET "/recipes" for ::1 at 2020-11-11 23:48:18 -0500
+Processing by BookmarksController#index as */*
+Processing by RecipesController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (73.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 88ms (Views: 14.8ms | ActiveRecord: 73.0ms | Allocations: 5154)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:48:27 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-11 23:48:27 -0500
+Processing by BookmarksController#index as */*
+Processing by RecipesController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 27)
+
+
+  [1m[36mRecipe Load (49.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 75ms (Views: 23.1ms | ActiveRecord: 49.9ms | Allocations: 5169)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:52:18 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (61.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 80ms (Views: 18.3ms | ActiveRecord: 61.4ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:52:19 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 1.0ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-11 23:52:30 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 2.2ms | Allocations: 4980)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:07:58 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 120ms (Views: 103.2ms | ActiveRecord: 4.9ms | Allocations: 16443)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:13:09 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (148.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 161ms (Views: 12.7ms | ActiveRecord: 148.0ms | Allocations: 4981)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:14:32 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (26.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 139ms (Views: 39.5ms | ActiveRecord: 87.3ms | Allocations: 16761)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:14:40 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>94, "bookmark"=>{"recipe_id"=>94}}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 94], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 74.7ms | Allocations: 3867)
+
+
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+app/controllers/bookmarks_controller.rb:16:in `create'
+Started GET "/recipes" for ::1 at 2020-11-12 00:15:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (33.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 435ms (Views: 58.7ms | ActiveRecord: 366.1ms | Allocations: 16694)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:15:56 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>94, "bookmark"=>{"recipe_id"=>94}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 94], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 40426ms (ActiveRecord: 34.8ms | Allocations: 67479)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `rescue in process_action'
+Started GET "/recipes" for ::1 at 2020-11-12 00:17:00 -0500
+  [1m[35m (84.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 174ms (Views: 83.0ms | ActiveRecord: 61.8ms | Allocations: 17935)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:17:03 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>94, "bookmark"=>{"recipe_id"=>94}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 94], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 74.5ms | Allocations: 3866)
+
+
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+app/controllers/bookmarks_controller.rb:16:in `create'
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (4.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.7ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 93]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 94]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (25.0ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 95]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 96]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 97]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (23.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 98]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 99]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 100]]
+  [1m[35m (23.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 101]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 102]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (25.6ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 103]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.6ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 104]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 105]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 106]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 107]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 108]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (5.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "jina"], ["email", "jina@gmail.com"], ["created_at", "2020-11-12 05:19:09.040517"], ["updated_at", "2020-11-12 05:19:09.040517"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (29.7ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Italian Sausace Stew with White Beans and Kale"], ["ingredients", "1 teaspoon olive oil * 1 medium onion, diced (about 1 cup) * 2 medium carrots, diced (about 1 cup) * 20 ounces sweet Italian turkey sausage, casing removed * 4 firmly-packed cups of torn kale leaves (bite-sized pieces) * 1 can (14.5 ounce) Red Gold petite diced tomatoes with their juice * 1 can (15 ounce) great northern beans, drained and rinsed * 1 cup reduced sodium chicken broth (more if desired)"], ["instructions", "In a large skillet, heat olive oil over medium-high heat. Add onions, carrots, and Italian sausage. Cook, stirring frequently and breaking up sausage, until sausage is browned and cooked through and onions are translucent. Add kale and continue to stir and cook until kale is wilted (1-2 minutes). * Add tomatoes, beans, and broth and cook until heated through. If you desire the stew to be more soup-like, add more broth. * Serve garnished with croutons, fresh parsley and grated Parmesan cheese."], ["cuisine_type", "Italian"], ["cooking_time", 20], ["tags", "Poultry"], ["servings", 6], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.051115"], ["updated_at", "2020-11-12 05:19:09.051115"], ["image", "https://www.rachelcooks.com/wp-content/uploads/2016/03/sausage-bean-kale-tomato-stew-600-4-of-4-600x712.jpg"], ["sourceURL", "https://www.rachelcooks.com/2016/04/01/italian-sausage-stew-white-beans-kale/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Salmon with Sesame-Ginger Quinoa"], ["ingredients", "1 1/2 tablespoons toasted sesame oil * 1 tablespoon grated peeled ginger, plus 1 inch thinly sliced * 1 cup quinoa, rinsed * Kosher salt * 3 heads baby bok choy (about 12 ounces), trimmed and thinly sliced * 1 red jalapeno pepper, seeded (1/2 minced, 1/2 thinly sliced) * 3 scallions, thinly sliced * 4 6-ounce skinless center-cut salmon fillets (preferably wild) * 3 tablespoons low-sodium soy sauce * Juice of 1 lemon * 1/4 cup fresh cilantro, torn"], ["instructions", "Heat 1/2 tablespoon sesame oil in a medium saucepan over medium heat. Add the grated ginger; cook until slightly softened, 1 minute. Add the quinoa; cook, stirring occasionally, until lightly toasted, 2 minutes. Add 1 1/4 cups water and 1/4 teaspoon salt. Bring to a boil, then reduce the heat to medium low. Cover and cook until the water is absorbed and the quinoa is tender, about 12 minutes. * Add the bok choy, minced jalapeno and half of the scallions to the quinoa. Cook, covered, until the bok choy wilts, about 7 minutes. * Meanwhile, bring 3/4 cup water, the sliced ginger and sliced jalapeno to a boil in a large skillet over medium heat. Add the salmon. Cover and cook until just cooked through, 5 minutes. Transfer to a plate using a slotted spatula. Stir the soy sauce, lemon juice, remaining scallions and 1 tablespoon sesame oil into the poaching liquid. * Fluff the quinoa; season with salt. Serve with the salmon; drizzle with the soy sauce mixture and top with the cilantro."], ["cuisine_type", "Asian"], ["cooking_time", 30], ["tags", "Fish * Healthy"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.087052"], ["updated_at", "2020-11-12 05:19:09.087052"], ["image", "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/16/3/FNM_010116-Salmon-with-Sesame-Ginger-Quinoa-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1450719022163.jpeg"], ["sourceURL", "https://www.foodnetwork.com/recipes/emilia-cirker/salmon-with-sesame-ginger-quinoa-3364685"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Tofu Scramble with Broccoli Noodles"], ["ingredients", "2 broccoli stems, Blade C (florets saved for future use) * 1 14oz block of extra-firm tofu * 2 tablespoons extra virgin olive oil * 1/2 onion, diced * 2 cloves of garlic, minced * 1 small red bell pepper, finely diced * 1 teaspoon cumin * 1 teaspoon turmeric * 1 tablespoon nutritional yeast flakes (optional) * salt and pepper, to taste"], ["instructions", "Bring a medium pot of water to a boil. Once boiling, add in the broccoli noodles and cook for 2-3 minutes or until broccoli noodles are al dente. * While the broccoli cooks, place the tofu on a plate lined with paper towels. Using a fork, smash the tofu until it crumbles. Blot the top with paper towels to remove as much excess moisture as possible. Set aside. * Heat a large skillet over medium heat and add in the olive oil. Once oil heats, add in the onion, garlic and peppers. Cook for 3-5 minutes or until vegetables soften. Add in the cumin, stir for 1 minute and then add in the tofu, broccoli noodles, turmeric and nutritional yeast flakes. Season with salt and pepper and cook for 2-3 minutes or until the tofu is heated through."], ["cuisine_type", "Healthy"], ["cooking_time", 25], ["tags", "Noodles * Gluten Free * Vegetarian * Vegan"], ["servings", 3], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.093544"], ["updated_at", "2020-11-12 05:19:09.093544"], ["image", "https://inspiralized.com/wp-content/uploads/2014/09/IMG_2959-copy.jpg"], ["sourceURL", "https://inspiralized.com/tofu-scramble-with-broccoli-noodles/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Brussels Sprouts with Chorizo, Raisins and Almonds"], ["ingredients", "1/4 cup (1oz) raisins (dark or golden) * 1lb brussels sprouts * 2 teaspoons olive oil * 1/4 cup finely chopped yellow onion * 1 clove of garlic, minced * 3oz soy chorizo, crumbled * 2 tablespoons (1/2 oz) sliced almonds * 1/8 teaspoon kosher salt * freshly ground black pepper, to taste"], ["instructions", "Place raisins in a small bowl and cover with hot water. * Trim the stems from the brussels sprouts and remove the outer leaves. Using a slicing attachment on a food processor, slice the brussels sprouts. Set aside. * Heat olive oil in a nonstick skillet over medium-low heat. Place onions in the skillet and cook for 4-5 minutes, stirring often, until softened and beginning to brown. Add garlic and cook 1 minute more. Add the brussels sprouts, increase heat to medium-high, and cook for about 10 minutes, stirring occasionally. The brussels sprouts should be crisp-tender and browned in spots. Add the chorizo and sliced almonds. Drain raisins and add to the skillet. Cook, stirring, 3 minutes more, until mixture is heated through. Season with salt and black pepper to taste."], ["cuisine_type", "American"], ["cooking_time", 25], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian"], ["servings", 3], ["meal_type", "Sides"], ["created_at", "2020-11-12 05:19:09.098434"], ["updated_at", "2020-11-12 05:19:09.098434"], ["image", "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.0ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Lamb Chops with Mashed Peas & Mint"], ["ingredients", "4 teaspoons extra-virgin olive oil, divided * 3 large 3 large cloves garlic, chopped * 2 cups 2 cups frozen peas (12 ounces) thawed * 3/4 cup water, plus more as needed * 3/4 teaspoon salt divided * 1/2 teaspoon freshly ground pepper * 8 eaches 8 lamb loin chops (1 1/2-2 pounds total) trimmed * 1 tablespoon chopped fresh mint"], ["instructions", "Preheat oven to 375 degrees F. * Heat 2 teaspoons oil in a medium saucepan over medium heat. Add garlic and cook, stirring, until fragrant and slightly softened, about 1 minute. Stir in peas, 3/4 cup water and 1/4 teaspoon salt. Bring to a boil. Reduce heat to medium, cover and cook for 5 minutes. Remove from heat. * Sprinkle the remaining 1/2 teaspoon salt and pepper on both sides of lamb chops. Heat the remaining 2 teaspoons oil in a large, ovenproof, nonstick skillet over medium-high heat. Add the chops and cook until browned on one side, 1 1/2 to 2 minutes. Turn them over and transfer the pan to the oven. * Roast until an instant-read thermometer inserted horizontally into a chop registers 135 degrees F for medium-rare, 8 to 12 minutes, depending on thickness. * Meanwhile, transfer the pea mixture to a blender or food processor. Add mint; pulse until coarsely pureed, adding additional water a tablespoon at a time for desired consistency and scraping down the sides as needed. * Serve the lamb with the pea puree."], ["cuisine_type", "American"], ["cooking_time", 30], ["tags", "Dairy Free * Gluten Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.104234"], ["updated_at", "2020-11-12 05:19:09.104234"], ["image", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F08%2F27044833%2F3758136.jpg"], ["sourceURL", "http://www.eatingwell.com/recipe/250593/lamb-chops-with-mashed-peas-mint/"], ["rating", 0]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.5ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Citrus Salad with Dates"], ["ingredients", "4 tablespoons olive oil * 2 tablespoons vinegar (champagne vinegar, sherry vinegar, red wine vinegar, apple cider vinegar) * 2 tablespoons orange juice * 1 tablespoon lemon juice or lime * 1 tablespoon shallot (finely chopped) or sub 1 garlic clove, finely minced * 1/4 teaspoon salt (more to taste) * 1/4 teaspoon pepper * 1/4 cup coconut flakes, toasted * 1/4 cup thinly sliced red onion * 3-5 oranges, peeled and sliced * 2-3 large handfuls of baby arugula (or baby spinach) * 1/4 cup chooped or sliced medjool dates * 1/4 cup pistachios, pecan pieces or sliced almonds * fresh mint or italian parsley"], ["instructions", "Stir everything together in a small bowl. * Toast the coconut (in a dry skillet over low heat) and soak red onions in a bowl of salted water. * Cut the rinds off the oranges. Slice into 1/4 inch thick rounds. * Place the arugula (or baby spinach) on a platter to form the base of the salad. Layer the orange slices over top. Sprinkle with the chopped dates, nuts and toasted coconut. * Drain and scatter the red onions. Add some mint leaves and spoon the dressing over top * Add cracked pepper as needed. * Serve immediately."], ["cuisine_type", "Moroccan"], ["cooking_time", 25], ["tags", "Vegan * Vegetarian * Dairy Free"], ["servings", -2], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.137315"], ["updated_at", "2020-11-12 05:19:09.137315"], ["image", "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/citrus-salad/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Whiskey Mussels en Papillote Recipe"], ["ingredients", "2 pounds Live Mussel debearded and scrubbed * 1 medium Shallot finely diced * 1/4 ounce Dried Tarragon, fresh sprigs * 1 tablespoon Lemon Zest approximiately 1 lemon's worth * 1/4 cup Irish Whiskey such as Bushmills * 2 tablespoons Olive Oil * Sea Salt * Black Pepper, freshly ground"], ["instructions", "Preheat oven to 450°F. * Lay out two long sheets (~24 inches each) of heavy duty foil; fold each one in half. Set half of the mussels on each piece of foil, then cup the edges of the foil to hold everything in for now. * Scatter half of the diced shallots over each portion. Pull the leaves from the tarragon sprigs and scatter over the mussels, along with the lemon zest. Pour half of the whiskey and olive oil over each portion. Sprinkle each with a few pinches of salt and pepper. * Bring the edges of the foil up and fold to form a packet that encompasses everything inside. Set the packets in a baking dish or on a baking sheet (to catch any juices that escape). Slide into preheated oven and bake for 10-12 minutes, or until all of the shells have opened (discard any that do not open). * In the meantime, combine all of the ingredients for the vinaigrette in a small jar with a lid and shake hard to combine. * Carefully open each parcel (the steam will be hot!). Set each parcel on a deep-sided serving plate or shallow bowl and open just before you eat, letting the steam waft up into your nose. You could also transfer each portion directly to the serving vessel. Shake up the vinaigrette again, and pour over the mussels before diving in, preferably with some crusty bread for mopping up the juices and a dram of whiskey to accent the flavors."], ["cuisine_type", "French"], ["cooking_time", 30], ["tags", "Seafood * Egg Free"], ["servings", 2], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.144355"], ["updated_at", "2020-11-12 05:19:09.144355"], ["image", "https://food-fanatic-res.cloudinary.com/iu/s--f_2c4Urb--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1394132286/whiskey-mussels-en-papilotte-image.jpg"], ["sourceURL", "https://www.foodfanatic.com/gallery/whiskey-mussels-en-papilotte-image/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sesame-Crusted Tuna Steaks"], ["ingredients", "4 tuna steaks (1-inch thick, about 6 ounces each) * 1/3 cup white sesame seeds * 1/4 cup black sesame seeds * 2 teaspoons toasted sesame oil * 2 tablespoons soy sauce * Freshly ground black pepper * Vegetable oil"], ["instructions", "Combine the white and black sesame seeds on a plate and spread in a thin layer. * Whisk the sesame oil and soy sauce together in a small bowl. Using a spoon, drizzle a little of the mixture over each tuna steak and rub with the back of a spoon to cover the entire surface. Season with a little black pepper, then turn the steaks and repeat the process. * Dredge the tuna steaks in sesame seeds (sides included), pressing gently to ensure they cover the fish evenly and completely. * Film the bottom of a heavy pan with a small amount of vegetable oil, then heat over medium-high heat until shimmering. * Working in batches to avoid overcrowding the pan, add 2 of the tuna steaks and sear just long enough for the white sesame seeds to develop a little golden color, 1 to 1-1/2 minutes per side. If desired, you can use tongs to gently support the steaks and sear the edges of the steaks all the way around as well, 15 to 20 seconds total should be enough time. * Transfer the tuna to a cutting board and repeat the process with the remaining steaks. * Cut the tuna steaks into thin slices and arrange over fresh greens. Serve with soy sauce and wasabi for dipping, steamed rice on the side and a garnish of sliced scallions."], ["cuisine_type", "Asian"], ["cooking_time", 10], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian"], ["servings", 4], ["meal_type", "Appetizer"], ["created_at", "2020-11-12 05:19:09.149844"], ["updated_at", "2020-11-12 05:19:09.149844"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/sesame-crusted-tuna-steaks.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/sesame-crusted-tuna-steaks/"], ["rating", 0]]
+  [1m[35m (26.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.9ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Shrimp Tacos with Corn and Avocado Salsa"], ["ingredients", "1-1/4 lbs large shrimp, peeled, deveined, tails removed * 2 tablespoons olive oil * 1 clove garlic, very finely chopped * 1 teaspoon ground cumin * 1 teaspoon ground coriander * 1 teaspoon Old Bay Seasoning (optional) * 8 taco shells (or 6-inch corn tortillas) * 1/2 cup queso fresco (or finely shredded Monterey Jack cheese) * 2 ears sweet corn, kernels removed (about 1 cup) * 1 large, ripe tomato, seeded and chopped (about 1/2 cup) * 1/4 cup red onion, chopped * 1 jalapeño pepper, seeded and chopped * 1 tablespoon freshly squeezed lime juice * 2 tablespoons fresh cilantro, chopped * 1 medium Haas avocado, peeled and cut into small cubes * Salt and freshly ground black pepper"], ["instructions", "Place the shrimp in a large bowl and toss with the olive oil, garlic, cumin, coriander and Old Bay Seasoning (if you don't use the Old Bay, add a little salt and pepper). Set aside. * Combine the corn, tomato, red onion, jalapeño, lime juice and cilantro. Season to taste with salt and pepper, then add the avocado, taste and season again. Set aside. * Note: If your corn is very fresh and tender, you can use the kernels raw. If not, place them in a shallow dish, cover and microwave for 1-1/2 to 2 minutes on high. Allow to cool completely before proceeding with the recipe. You can also use frozen corn if fresh is not available. Just thaw and blot away any excess moisture with a paper towel before adding to the salsa. * Heat a heavy skillet over medium-high heat. Add the shrimp and sauté until pink and opaque, about 2 minutes. * To serve, spoon a portion of the corn salsa into the bottom of each taco shell. Top with shrimp and a sprinkling of cheese. Serve immediately."], ["cuisine_type", "Mexican"], ["cooking_time", 25], ["tags", "Seafood * Healthy"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.182694"], ["updated_at", "2020-11-12 05:19:09.182694"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/shrimp-tacos-corn-avocado-salsa.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/shrimp-tacos-corn-avocado-salsa/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Vegan Ramen with Miso Shiitake Broth"], ["ingredients", "1 large onion-diced * 2 smashed garlic cloves * 1-2 tablespoon olive oil * 4 cups veggie stock * 4 cups water * 1/2 cup dried shiitake mushrooms * 1 sheet kombu seaweed * 1/8 cup mirin * 1-2 tablespoons white miso paste * pepper to taste * sriracha or hot chili oil for spicy (optional) * 6-8 ounces ramen noodles * 8 ounces cubed crispy tofu * optional veggies: steamed or sauteed bok choy, fresh spinach, shredded carrots or cabbage, roasted sweet potato, sauteed mushrooms, baby corn, bamboo shoots, enoki mushrooms, kimchi, daikon radish, pickled radish, fresh herbs, scallion, toasted sesame seeds"], ["instructions", "Toss bite-sized pieces of veggies with a little olive oil, salt, and pepper and place on a parchment-lined sheet pan and roast in a 400F oven until fork tender. * Broth: Over medium-high heat, saute the onion in 1 tablespoon oil until tender about 3 minutes. Turn heat to medium, add the smashed garlic cloves and continue cooking the onions until they are deeply golden brown. Add the veggie stock, water, dried shiitakes, a sheet of kombu and mirin. Bring to a simmer. * Simmer for 25-30 minutes uncovered on med heat, then remove the kombu. Add the miso, and pepper to taste. Adjust salt to your liking. Keep warm. * Cook the ramen noodles in a pot of boiling water. Drain. Toss with sesame oil to keep separated. * Prepare optional veggies for toppings. Use a combo of fresh and cooked veggies for the best texture. Make the crispy tofu. * Fill bowls with cooked noodles, crispy tofu and other veggies. Pour the flavorful shiitake broth over top. Garnish with a little drizzle of sesame oil and sriracha. Top with scallions and sesame seeds."], ["cuisine_type", "Asian"], ["cooking_time", 40], ["tags", "Vegan * Vegetarian * Dairy Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.202801"], ["updated_at", "2020-11-12 05:19:09.202801"], ["image", "https://www.feastingathome.com/wp-content/uploads/2012/11/vegan-ramen-14-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/smoked-shiitake-ramen/"], ["rating", 0]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sweet and Sour Chicken with Pineapple"], ["ingredients", "1-1/4 lbs chicken tenderloins * 1-1/2 tablespoons cornstarch * Salt and freshly ground black pepper * 2-1/2 tablespoons cooking oil, divided * 2 sweet bell peppers (1 red, 1 green), cut into 1-inch chunks * 1 clove garlic, minced * 1 tablespoon minced fresh ginger * 1 cup fresh pineapple cut into 3/4-inch chunks * 1/4 cup ketchup * 1/4 cup pineapple juice * 2 tablespoons rice vinegar * 2 tablespoons light brown sugar * 1/4 teaspoon sriracha (optional)"], ["instructions", "Trim any white tendons from the chicken tenderloins, cut them crosswise into 1-inch pieces, and place them in a shallow bowl. * Season lightly with salt and pepper, sprinkle with the cornstarch and stir until the chicken pieces are thoroughly coated. Set aside. * Make the sauce by combining the ketchup, pineapple juice, rice vinegar, light brown sugar, and sriracha (if using) in a microwave-safe measuring cup. Microwave on high for 1 minute, then stir until the brown sugar is dissolved. * Heat 1 tablespoon of oil in a large nonstick frying pan over medium-high heat. Add the bell peppers and stir-fry until crisp-tender, 3 to 4 minutes. Season lightly with salt and pepper, transfer to a plate and set aside. Add the remaining 1-1/2 tablespoons of oil to the pan, swirl to coat and add the garlic and ginger. * Stir-fry for 30 seconds, then add the chicken. Separate the pieces with a spatula and spread to the edges of the pan. * Allow the chicken to cook for about 30 seconds undisturbed, then begin stir-frying until golden on all sides, 3 to 4 minutes longer. Return the peppers to the pan, add the pineapple, and stir in the sauce. Continue cooking for 1 to 2 minutes until the sauce has thickened and all the ingredients are nicely glazed. * Serve over steamed white or brown rice and garnish with scallions and sesame seeds if desired."], ["cuisine_type", "Asian"], ["cooking_time", 35], ["tags", "Poultry * Egg Free"], ["servings", 4], ["meal_type", "Main DIsh"], ["created_at", "2020-11-12 05:19:09.237120"], ["updated_at", "2020-11-12 05:19:09.237120"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/sweet-sour-chicken.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/sweet-and-sour-chicken-with-pineapple/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Grilled Salmon Kebabs"], ["ingredients", "2 tbsp chopped fresh oregano * 2 tsp sesame seeds * 1 tsp ground cumin * 1/4 tsp crushed red pepper flakes * 1-1/2 pounds skinless wild salmon fillet, cut into 1-inch pieces * 2 lemons, very thinly sliced into rounds * olive oil cooking spray * 1 tsp kosher salt * 16 bamboo skewers soaked in water 1 hour"], ["instructions", "Heat the grill on medium heat and spray the grates with oil. * Mix oregano, sesame seeds, cumin, and red pepper flakes in a small bowl to combine; set spice mixture aside. * Beginning and ending with salmon, thread salmon and folded lemon slices onto 8 pairs of parallel skewers to make 8 kebabs total. * Spray the fish lightly with oil and season kosher salt and the reserved spice mixture. * Grill the fish, turning occasionally, until fish is opaque throughout, about 8 to 10 minutes total."], ["cuisine_type", "American"], ["cooking_time", 25], ["tags", "Fish * Healthy * Egg Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.243715"], ["updated_at", "2020-11-12 05:19:09.243715"], ["image", "https://www.skinnytaste.com/wp-content/uploads/2013/06/grilled-salmon-kabobs-550x365.jpg"], ["sourceURL", "https://www.skinnytaste.com/these-lovely-grilled-salmon-and-lemon/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sweet Potato Hash Protein Bowl"], ["ingredients", "2 tablespoons olive oil * 1 tablespoon minced garlic * 1 large sweet potato, peeled * 1 red pepper, finely diced * 1/2 yellow onion, finely diced * 4 chicken sausages, precooked * 4 cups kale, deboned * salt and pepper to taste (be generous!) * 2 tablespoons balsamic vinegar"], ["instructions", "Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat. * Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this. * Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent. * Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar. * Give your sweet potato hash one last toss and enjoy!"], ["cuisine_type", "American"], ["cooking_time", 35], ["tags", "Dairy Free * Gluten Free * Egg Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.248886"], ["updated_at", "2020-11-12 05:19:09.248886"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (24.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.7ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Homemade Guacamole"], ["ingredients", "3 large avocados ripe * 3 cloves garlic, smashed and minced (~1.5 tablespoons) * 1/3 medium red onion, finely diced * 1 medium lime, juice (or more, to taste) * 1/4 teaspoon sea salt (or more, to taste) * 2 tablespoons cilantro, freshly chopped * optional: 1/2 large jalapeno, finely diced"], ["instructions", "1. First, remove the flesh of the avocados and place it into a medium-size bowl. * Use a fork to mash avocado flesh until smooth. Alternatively, you can leave some chunks, if you prefer a more chunky guacamole. * Next, add in minced garlic, finely diced onion, lime juice, sea salt, and cilantro, and mix until combined. * Give guacamole a taste test and adjust the salt and lime juice depending on what it needs. * Serve with your favorite tortilla chips!"], ["cuisine_type", "American"], ["cooking_time", 10], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian * Egg Free * Nut Free"], ["servings", 6], ["meal_type", "Sides"], ["created_at", "2020-11-12 05:19:09.282094"], ["updated_at", "2020-11-12 05:19:09.282094"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg"], ["sourceURL", "https://fitfoodiefinds.com/classic-guacamole/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Instant Pot Honey Garlic Chicken Thighs"], ["ingredients", "2 lbs. chicken thighs, skin-on * 1.5 tablespoons olive oil * 1 tablespoon minced garlic * 1/3 cup honey * 2 tablespoon soy sauce (or tamari) * 1 teaspoon chili garlic sauce * 1/2 tablespoon cornstarch (optional) * 1 teaspoon sesame seeds (optional)"], ["instructions", "First, use a few pieces of paper towel to remove as much moisture as possible from your chicken thighs. * Next, turn on the Instant Pot’s sauté feature. Sear both sides of each chicken thigh for 2-3 minutes to give them a nice brown. * While the chicken thighs are sauteing, prepare the honey garlic sauce. Mix together minced garlic, honey, soy sauce, and chili garlic sauce. * Once the chicken thighs are done browning, turn off the sauté function and then pour on the honey garlic sauce. * Close your Instant Pot and turn the valve to seal. Turn your Instant Pot to manual > high pressure > and set the timer for 5 minutes. It will take around 10 minutes for the pressure to build before it starts counting down from 5 minutes. * When the timer goes off, quick release your Instant Pot by opening the valve. Remove the lid and then remove chicken thighs. * Pour the sauce over the chicken thighs or you have the option to thicken your sauce with cornstarch. To thicken turn on the Instant Pot’s saute feature (you need the heat to ignite the thickening agent) and then sprinkle in cornstarch. * Whisk until the sauce thickens.Pour the sauce over the chicken and serve with sesame seeds and your favorite grain and veggies."], ["cuisine_type", "Asian"], ["cooking_time", 30], ["tags", "Dairy Free * Gluten Free * Egg Free"], ["servings", 6], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 05:19:09.291691"], ["updated_at", "2020-11-12 05:19:09.291691"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2020/01/thighs.jpg"], ["sourceURL", "https://fitfoodiefinds.com/instant-pot-honey-garlic-chicken-thighs/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "French Potato Salad"], ["ingredients", "2 pounds fresh potatoes, sliced 1/4 inch thick * 2 tablespoons of sea salt * 2 large garlic cloves * 1 tablespoon digon mustard * 1/4 cup champagne vinegar or white wine vinegar * 1/3 cup olive oil * 1/4 teaspoon black pepper * 1/4 cup fresh flat-leaf parsley, roughly chopped * 2 tablespoons fresh tarragon, roughly chopped * 2 tablespoons fresh chives, minced"], ["instructions", "Place the sliced potatoes in a large saucepan cover completely with cold water. Sprinkle in salt and bring to a boil. Add the 2 cloves of garlic, reduce heat and simmer 5 minutes or until potatoes are just tender. * White potatoes are simmering, make the vinaigrette by whisking together dijon, oil, vinegar and  pepper in a small bowl. * Drain potatoes and garlic. Place potatoes mostly single layer on a baking sheet to cool. Mince the cooked garlic and add to the vinaigrette. Drizzle the vinaigrette evenly over the warm potatoes. Let sit at room temperature for about 10-15 minutes. * Add to a serving bowl gently tossing the chopped fresh herbs. Serve at room temp or refrigerate and chill."], ["cuisine_type", "American"], ["cooking_time", 15], ["tags", "Vegan * Vetarian * Dairy Free"], ["servings", 6], ["meal_type", "Sides"], ["created_at", "2020-11-12 05:19:09.296875"], ["updated_at", "2020-11-12 05:19:09.296875"], ["image", "https://www.feastingathome.com/wp-content/uploads/2020/09/French-Potato-Salad-Recipe_-3-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/french-potato-salad/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/recipes" for ::1 at 2020-11-12 00:20:34 -0500
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (19.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 177ms (Views: 81.3ms | ActiveRecord: 64.1ms | Allocations: 17969)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:20:45 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>122, "bookmark"=>{"recipe_id"=>122}}
+  [1m[36mUser Load (27.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 122], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 38067ms (ActiveRecord: 124.8ms | Allocations: 51743)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `create'
+app/controllers/bookmarks_controller.rb:18:in `create'
+Started GET "/recipes" for ::1 at 2020-11-12 00:22:04 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (11.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 585ms (Views: 459.2ms | ActiveRecord: 75.9ms | Allocations: 3703176)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:22:14 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>123, "bookmark"=>{"recipe_id"=>123}}
+  [1m[36mUser Load (14.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (1.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 123], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (4.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+Completed 200 OK in 918ms (Views: 6.2ms | ActiveRecord: 70.3ms | Allocations: 4196117)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:22:54 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 518ms (Views: 501.6ms | ActiveRecord: 4.5ms | Allocations: 2126082)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:22:59 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>122, "bookmark"=>{"recipe_id"=>122}}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 122], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (16.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (11.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+Completed 200 OK in 540ms (Views: 5.6ms | ActiveRecord: 34.2ms | Allocations: 1455513)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:23:46 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>121, "bookmark"=>{"recipe_id"=>121}}
+  [1m[36mUser Load (10.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 121], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (44.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (8.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+Completed 200 OK in 480ms (Views: 9.9ms | ActiveRecord: 65.6ms | Allocations: 1457042)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:24:03 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (22.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1073ms (Views: 1030.0ms | ActiveRecord: 22.5ms | Allocations: 2323065)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:24:34 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (21.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 631ms (Views: 603.5ms | ActiveRecord: 21.6ms | Allocations: 2306162)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:25:08 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>110, "bookmark"=>{"recipe_id"=>110}}
+  [1m[36mUser Load (26.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (25.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 110], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (27.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (22.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (1.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/bookmarks_controller.rb:25:in `create'
+  [1m[36mRecipe Load (4.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 110], ["LIMIT", 1]]
+  ↳ (byebug):1:in `create'
+Completed 500 Internal Server Error in 471940ms (ActiveRecord: 179.2ms | Allocations: 5569152)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `create'
+app/controllers/bookmarks_controller.rb:25:in `create'
+Started GET "/recipes" for ::1 at 2020-11-12 00:33:10 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (8.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 949ms (Views: 811.4ms | ActiveRecord: 66.9ms | Allocations: 4747226)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:33:18 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>109, "bookmark"=>{"recipe_id"=>109}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (3.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 109], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 565ms (ActiveRecord: 22.9ms | Allocations: 2128193)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'recipe' for Bookmark.):
+  
+app/controllers/bookmarks_controller.rb:16:in `create'
+Started GET "/recipes" for ::1 at 2020-11-12 00:35:12 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 89ms (Views: 38.1ms | ActiveRecord: 41.1ms | Allocations: 17935)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:35:19 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>124, "bookmark"=>{"recipe_id"=>124}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 124], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ (byebug):1:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (byebug):1:in `create'
+  [1m[36mBookmark Create (5.4ms)[0m  [1m[32mINSERT INTO "bookmarks" ("user_id", "recipe_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["recipe_id", 124], ["created_at", "2020-11-12 05:35:27.926096"], ["updated_at", "2020-11-12 05:35:27.926096"]]
+  ↳ (byebug):1:in `create'
+  [1m[35m (31.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ (byebug):1:in `create'
+Completed 500 Internal Server Error in 15207ms (ActiveRecord: 105.9ms | Allocations: 55811)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `create'
+app/controllers/bookmarks_controller.rb:18:in `create'
+Started POST "/bookmarks/" for ::1 at 2020-11-12 00:35:55 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>121, "bookmark"=>{"recipe_id"=>121}}
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (2.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 121], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+Completed 500 Internal Server Error in 12922ms (ActiveRecord: 35.6ms | Allocations: 413511)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `create'
+app/controllers/bookmarks_controller.rb:18:in `create'
+Started GET "/recipes" for ::1 at 2020-11-12 00:40:28 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 626ms (Views: 535.3ms | ActiveRecord: 34.1ms | Allocations: 4052602)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:47:32 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (3.0ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 318ms (Views: 223.1ms | ActiveRecord: 32.8ms | Allocations: 1156060)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:47:34 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (12.1ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 147ms (Views: 122.6ms | ActiveRecord: 12.1ms | Allocations: 332287)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:52:52 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 993ms (Views: 976.9ms | ActiveRecord: 5.8ms | Allocations: 2341765)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:53:59 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (2.3ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 239ms (Views: 218.9ms | ActiveRecord: 2.3ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:54:00 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (2.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 279ms (Views: 268.8ms | ActiveRecord: 2.4ms | Allocations: 332287)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:54:33 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (5.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 584ms (Views: 564.6ms | ActiveRecord: 5.1ms | Allocations: 2320009)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:54:52 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (80.7ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 244ms (Views: 154.1ms | ActiveRecord: 80.7ms | Allocations: 335357)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:54:53 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (8.0ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 163ms (Views: 143.8ms | ActiveRecord: 8.0ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:55:53 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (8.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 244ms (Views: 213.2ms | ActiveRecord: 8.6ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:55:55 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (3.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 215ms (Views: 185.7ms | ActiveRecord: 3.6ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:55:55 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (6.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 450ms (Views: 434.1ms | ActiveRecord: 6.6ms | Allocations: 339586)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:55:56 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (4.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 126ms (Views: 118.4ms | ActiveRecord: 4.4ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:55:56 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (31.3ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 137ms (Views: 90.9ms | ActiveRecord: 31.3ms | Allocations: 333057)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 00:57:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (21.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1207ms (Views: 1176.6ms | ActiveRecord: 21.8ms | Allocations: 2322255)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:59:20 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 00:59:20 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 504ms (Views: 472.9ms | ActiveRecord: 4.3ms | Allocations: 2513201)
+
+
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (12.3ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 110ms (Views: 87.7ms | ActiveRecord: 12.3ms | Allocations: 360049)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 00:59:21 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (1.5ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 83ms (Views: 68.3ms | ActiveRecord: 1.5ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:00:44 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (1.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 138ms (Views: 124.0ms | ActiveRecord: 1.6ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:00:45 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (9.9ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 190ms (Views: 131.0ms | ActiveRecord: 9.9ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:00:46 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (24.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 228ms (Views: 164.3ms | ActiveRecord: 24.6ms | Allocations: 334585)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:00:46 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (46.9ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 198ms (Views: 138.5ms | ActiveRecord: 46.9ms | Allocations: 332285)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:01:02 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:02 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mRecipe Load (24.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mBookmark Load (4.7ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 295ms (Views: 271.1ms | ActiveRecord: 4.7ms | Allocations: 788759)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:03 -0500
+Processing by BookmarksController#index as */*
+Completed 200 OK in 1392ms (Views: 1355.1ms | ActiveRecord: 24.9ms | Allocations: 3166935)
+
+
+  [1m[36mBookmark Load (133.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 319ms (Views: 179.9ms | ActiveRecord: 133.6ms | Allocations: 944065)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:04 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (29.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 148ms (Views: 85.4ms | ActiveRecord: 29.4ms | Allocations: 339586)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:01:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (44.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1334ms (Views: 1280.1ms | ActiveRecord: 44.8ms | Allocations: 2341695)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:19 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (31.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 148ms (Views: 95.9ms | ActiveRecord: 31.4ms | Allocations: 332287)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:19 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (24.2ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 167ms (Views: 121.2ms | ActiveRecord: 24.2ms | Allocations: 332285)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:01:20 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (8.0ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 120ms (Views: 99.3ms | ActiveRecord: 8.0ms | Allocations: 332287)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:02:59 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:02:59 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (76.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+Processing by RecipesController#index as */*
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 246ms (Views: 151.7ms | ActiveRecord: 76.4ms | Allocations: 570600)
+
+
+  [1m[36mRecipe Load (268.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1219ms (Views: 946.3ms | ActiveRecord: 268.6ms | Allocations: 2575473)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:03:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1016ms (Views: 995.0ms | ActiveRecord: 2.6ms | Allocations: 2329793)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:03:14 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (24.8ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 133ms (Views: 100.9ms | ActiveRecord: 24.8ms | Allocations: 332287)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:03:47 -0500
+Processing by BookmarksController#index as */*
+Started GET "/recipes" for ::1 at 2020-11-12 01:03:47 -0500
+  [1m[36mBookmark Load (23.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 111ms (Views: 82.1ms | ActiveRecord: 23.6ms | Allocations: 434734)
+
+
+Processing by RecipesController#index as */*
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:03:48 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mRecipe Load (381.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+  [1m[36mBookmark Load (33.3ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 235ms (Views: 191.5ms | ActiveRecord: 33.3ms | Allocations: 593762)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:03:49 -0500
+Processing by BookmarksController#index as */*
+Completed 200 OK in 1769ms (Views: 1286.9ms | ActiveRecord: 381.4ms | Allocations: 3474324)
+
+
+  [1m[36mBookmark Load (170.8ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 273ms (Views: 93.7ms | ActiveRecord: 170.8ms | Allocations: 981532)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:05:43 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 499ms (Views: 481.7ms | ActiveRecord: 3.5ms | Allocations: 2322255)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:06:07 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (70.9ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 207ms (Views: 114.0ms | ActiveRecord: 70.9ms | Allocations: 332287)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:06:23 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:06:23 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (32.7ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 389ms (Views: 340.0ms | ActiveRecord: 32.7ms | Allocations: 329177)
+
+
+  [1m[36mRecipe Load (542.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 2209ms (Views: 1660.6ms | ActiveRecord: 542.4ms | Allocations: 2801989)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:07:28 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:07:28 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mRecipe Load (54.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mBookmark Load (2.8ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 220ms (Views: 207.3ms | ActiveRecord: 2.8ms | Allocations: 883504)
+
+
+Completed 200 OK in 575ms (Views: 514.8ms | ActiveRecord: 54.7ms | Allocations: 2733938)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 01:07:42 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>121, "bookmark"=>{"recipe_id"=>121}}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (7.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 121], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (10.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mBookmark Create (3.1ms)[0m  [1m[32mINSERT INTO "bookmarks" ("user_id", "recipe_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["recipe_id", 121], ["created_at", "2020-11-12 06:07:43.351569"], ["updated_at", "2020-11-12 06:07:43.351569"]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+Completed 200 OK in 997ms (Views: 37.0ms | ActiveRecord: 64.0ms | Allocations: 4165613)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:07:45 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (2.0ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 115ms (Views: 90.2ms | ActiveRecord: 2.0ms | Allocations: 390885)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:13:15 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (103.7ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 248ms (Views: 126.5ms | ActiveRecord: 103.7ms | Allocations: 418645)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:13:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (243.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 969ms (Views: 705.7ms | ActiveRecord: 243.5ms | Allocations: 2341747)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:20:42 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 590ms (Views: 554.3ms | ActiveRecord: 3.2ms | Allocations: 2366457)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:21:21 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (80.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 735ms (Views: 637.3ms | ActiveRecord: 80.8ms | Allocations: 2320011)
+
+
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:22 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 71ms (ActiveRecord: 3.5ms | Allocations: 250952)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:23 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (14.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 168ms (ActiveRecord: 14.7ms | Allocations: 234026)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:26 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (3.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 299ms (ActiveRecord: 3.9ms | Allocations: 234578)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:28 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (28.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 113ms (ActiveRecord: 28.2ms | Allocations: 234025)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:30 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (21.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 141ms (ActiveRecord: 21.2ms | Allocations: 226547)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:31 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 55ms (ActiveRecord: 3.2ms | Allocations: 226546)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:33 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (3.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 84ms (ActiveRecord: 3.6ms | Allocations: 226544)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:34 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (17.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 116ms (ActiveRecord: 17.3ms | Allocations: 226546)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:37 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (11.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 76ms (ActiveRecord: 11.8ms | Allocations: 228844)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:39 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (1.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 93ms (ActiveRecord: 1.7ms | Allocations: 226546)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:40 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (5.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 52ms (ActiveRecord: 5.2ms | Allocations: 226544)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:42 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 50ms (ActiveRecord: 3.2ms | Allocations: 226546)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:42 -0500
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:42 -0500
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:43 -0500
+Started GET "/recipes/undefined" for ::1 at 2020-11-12 01:21:43 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (31.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 254ms (ActiveRecord: 31.5ms | Allocations: 1135971)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mRecipe Load (68.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Processing by RecipesController#show as */*
+  Parameters: {"id"=>"undefined"}
+Completed 404 Not Found in 524ms (ActiveRecord: 293.9ms | Allocations: 2874762)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+  [1m[36mRecipe Load (7.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+  [1m[36mRecipe Load (310.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:30:in `find_recipe'
+Completed 404 Not Found in 1041ms (ActiveRecord: 36.1ms | Allocations: 5927873)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Completed 404 Not Found in 1435ms (ActiveRecord: 533.4ms | Allocations: 7964752)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=undefined):
+  
+app/controllers/recipes_controller.rb:30:in `find_recipe'
+app/controllers/recipes_controller.rb:9:in `show'
+Started GET "/recipes" for ::1 at 2020-11-12 01:24:04 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (223.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1758ms (Views: 1408.6ms | ActiveRecord: 223.5ms | Allocations: 2323013)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:24:10 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (25.3ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 182ms (Views: 140.0ms | ActiveRecord: 25.3ms | Allocations: 390883)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:25:02 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:25:02 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mRecipe Load (121.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mBookmark Load (11.9ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 554ms (Views: 523.5ms | ActiveRecord: 11.9ms | Allocations: 1974397)
+
+
+Completed 200 OK in 854ms (Views: 711.0ms | ActiveRecord: 121.0ms | Allocations: 2717907)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:25:22 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:25:22 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (14.0ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 150ms (Views: 116.5ms | ActiveRecord: 14.0ms | Allocations: 390881)
+
+
+  [1m[36mRecipe Load (178.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 1565ms (Views: 1377.9ms | ActiveRecord: 178.4ms | Allocations: 2859609)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:25:30 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:25:30 -0500
+Processing by BookmarksController#index as */*
+Processing by RecipesController#index as */*
+  [1m[36mBookmark Load (21.9ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 479ms (Views: 449.7ms | ActiveRecord: 21.9ms | Allocations: 482365)
+
+
+  [1m[36mRecipe Load (541.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 2217ms (Views: 1626.5ms | ActiveRecord: 541.9ms | Allocations: 2795200)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:25:58 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:25:58 -0500
+Processing by BookmarksController#index as */*
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (42.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+  [1m[36mBookmark Load (83.5ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 527ms (Views: 437.8ms | ActiveRecord: 83.5ms | Allocations: 1287978)
+
+
+Completed 200 OK in 730ms (Views: 678.1ms | ActiveRecord: 42.5ms | Allocations: 2628792)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:28:01 -0500
+Started GET "/recipes" for ::1 at 2020-11-12 01:28:01 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookmarksController#index as */*
+  [1m[35m (13.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mBookmark Load (19.2ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+  [1m[36mRecipe Load (9.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 58ms (Views: 31.7ms | ActiveRecord: 20.5ms | Allocations: 18886)
+
+
+Completed 200 OK in 83ms (Views: 10.9ms | ActiveRecord: 60.4ms | Allocations: 24730)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:28:24 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 2.3ms | Allocations: 4999)
+
+
+Started POST "/bookmarks/" for ::1 at 2020-11-12 01:29:11 -0500
+Processing by BookmarksController#create as */*
+  Parameters: {"recipe_id"=>121, "bookmark"=>{"recipe_id"=>121}}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:14:in `create'
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 121], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:15:in `create'
+  [1m[35m (25.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[36mBookmark Create (1.3ms)[0m  [1m[32mINSERT INTO "bookmarks" ("user_id", "recipe_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["recipe_id", 121], ["created_at", "2020-11-12 06:29:11.614037"], ["updated_at", "2020-11-12 06:29:11.614037"]]
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/bookmarks_controller.rb:17:in `create'
+Completed 200 OK in 118ms (Views: 0.6ms | ActiveRecord: 63.0ms | Allocations: 13155)
+
+
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:29:16 -0500
+Processing by BookmarksController#index as */*
+  [1m[36mBookmark Load (0.4ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1178)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:30:02 -0500
+Started GET "/bookmarks/" for ::1 at 2020-11-12 01:30:02 -0500
+Processing by RecipesController#index as */*
+Processing by BookmarksController#index as */*
+  [1m[36mRecipe Load (4.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 4.0ms | Allocations: 5285)
+
+
+  [1m[36mBookmark Load (15.6ms)[0m  [1m[34mSELECT "bookmarks".* FROM "bookmarks"[0m
+  ↳ app/controllers/bookmarks_controller.rb:6:in `index'
+Completed 200 OK in 38ms (Views: 21.9ms | ActiveRecord: 15.6ms | Allocations: 6290)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 01:31:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 2.4ms | Allocations: 4996)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 07:44:49 -0500
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 63ms (Views: 45.8ms | ActiveRecord: 6.0ms | Allocations: 17935)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 07:49:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 2.8ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 07:53:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 3.2ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 07:55:36 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 44ms (Views: 37.1ms | ActiveRecord: 6.2ms | Allocations: 4998)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:06:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (154.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 183ms (Views: 27.6ms | ActiveRecord: 154.8ms | Allocations: 5068)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:07:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.8ms | Allocations: 4998)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 121]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 122]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 123]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 124]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 109]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 110]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 111]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 112]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 113]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 114]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 115]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 116]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 117]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 118]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 119]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 120]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "jina"], ["email", "jina@gmail.com"], ["created_at", "2020-11-12 13:11:18.605989"], ["updated_at", "2020-11-12 13:11:18.605989"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Italian Sausace Stew with White Beans and Kale"], ["ingredients", "1 teaspoon olive oil * 1 medium onion, diced (about 1 cup) * 2 medium carrots, diced (about 1 cup) * 20 ounces sweet Italian turkey sausage, casing removed * 4 firmly-packed cups of torn kale leaves (bite-sized pieces) * 1 can (14.5 ounce) Red Gold petite diced tomatoes with their juice * 1 can (15 ounce) great northern beans, drained and rinsed * 1 cup reduced sodium chicken broth (more if desired)"], ["instructions", "In a large skillet, heat olive oil over medium-high heat. Add onions, carrots, and Italian sausage. Cook, stirring frequently and breaking up sausage, until sausage is browned and cooked through and onions are translucent. Add kale and continue to stir and cook until kale is wilted (1-2 minutes). * Add tomatoes, beans, and broth and cook until heated through. If you desire the stew to be more soup-like, add more broth. * Serve garnished with croutons, fresh parsley and grated Parmesan cheese."], ["cuisine_type", "Italian"], ["cooking_time", 20], ["tags", "Poultry"], ["servings", 6], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.611940"], ["updated_at", "2020-11-12 13:11:18.611940"], ["image", "https://www.rachelcooks.com/wp-content/uploads/2016/03/sausage-bean-kale-tomato-stew-600-4-of-4-600x712.jpg"], ["sourceURL", "https://www.rachelcooks.com/2016/04/01/italian-sausage-stew-white-beans-kale/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Salmon with Sesame-Ginger Quinoa"], ["ingredients", "1 1/2 tablespoons toasted sesame oil * 1 tablespoon grated peeled ginger, plus 1 inch thinly sliced * 1 cup quinoa, rinsed * Kosher salt * 3 heads baby bok choy (about 12 ounces), trimmed and thinly sliced * 1 red jalapeno pepper, seeded (1/2 minced, 1/2 thinly sliced) * 3 scallions, thinly sliced * 4 6-ounce skinless center-cut salmon fillets (preferably wild) * 3 tablespoons low-sodium soy sauce * Juice of 1 lemon * 1/4 cup fresh cilantro, torn"], ["instructions", "Heat 1/2 tablespoon sesame oil in a medium saucepan over medium heat. Add the grated ginger; cook until slightly softened, 1 minute. Add the quinoa; cook, stirring occasionally, until lightly toasted, 2 minutes. Add 1 1/4 cups water and 1/4 teaspoon salt. Bring to a boil, then reduce the heat to medium low. Cover and cook until the water is absorbed and the quinoa is tender, about 12 minutes. * Add the bok choy, minced jalapeno and half of the scallions to the quinoa. Cook, covered, until the bok choy wilts, about 7 minutes. * Meanwhile, bring 3/4 cup water, the sliced ginger and sliced jalapeno to a boil in a large skillet over medium heat. Add the salmon. Cover and cook until just cooked through, 5 minutes. Transfer to a plate using a slotted spatula. Stir the soy sauce, lemon juice, remaining scallions and 1 tablespoon sesame oil into the poaching liquid. * Fluff the quinoa; season with salt. Serve with the salmon; drizzle with the soy sauce mixture and top with the cilantro."], ["cuisine_type", "Asian"], ["cooking_time", 30], ["tags", "Fish * Healthy"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.616581"], ["updated_at", "2020-11-12 13:11:18.616581"], ["image", "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/16/3/FNM_010116-Salmon-with-Sesame-Ginger-Quinoa-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1450719022163.jpeg"], ["sourceURL", "https://www.foodnetwork.com/recipes/emilia-cirker/salmon-with-sesame-ginger-quinoa-3364685"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Tofu Scramble with Broccoli Noodles"], ["ingredients", "2 broccoli stems, Blade C (florets saved for future use) * 1 14oz block of extra-firm tofu * 2 tablespoons extra virgin olive oil * 1/2 onion, diced * 2 cloves of garlic, minced * 1 small red bell pepper, finely diced * 1 teaspoon cumin * 1 teaspoon turmeric * 1 tablespoon nutritional yeast flakes (optional) * salt and pepper, to taste"], ["instructions", "Bring a medium pot of water to a boil. Once boiling, add in the broccoli noodles and cook for 2-3 minutes or until broccoli noodles are al dente. * While the broccoli cooks, place the tofu on a plate lined with paper towels. Using a fork, smash the tofu until it crumbles. Blot the top with paper towels to remove as much excess moisture as possible. Set aside. * Heat a large skillet over medium heat and add in the olive oil. Once oil heats, add in the onion, garlic and peppers. Cook for 3-5 minutes or until vegetables soften. Add in the cumin, stir for 1 minute and then add in the tofu, broccoli noodles, turmeric and nutritional yeast flakes. Season with salt and pepper and cook for 2-3 minutes or until the tofu is heated through."], ["cuisine_type", "Healthy"], ["cooking_time", 25], ["tags", "Noodles * Gluten Free * Vegetarian * Vegan"], ["servings", 3], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.621265"], ["updated_at", "2020-11-12 13:11:18.621265"], ["image", "https://inspiralized.com/wp-content/uploads/2014/09/IMG_2959-copy.jpg"], ["sourceURL", "https://inspiralized.com/tofu-scramble-with-broccoli-noodles/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Brussels Sprouts with Chorizo, Raisins and Almonds"], ["ingredients", "1/4 cup (1oz) raisins (dark or golden) * 1lb brussels sprouts * 2 teaspoons olive oil * 1/4 cup finely chopped yellow onion * 1 clove of garlic, minced * 3oz soy chorizo, crumbled * 2 tablespoons (1/2 oz) sliced almonds * 1/8 teaspoon kosher salt * freshly ground black pepper, to taste"], ["instructions", "Place raisins in a small bowl and cover with hot water. * Trim the stems from the brussels sprouts and remove the outer leaves. Using a slicing attachment on a food processor, slice the brussels sprouts. Set aside. * Heat olive oil in a nonstick skillet over medium-low heat. Place onions in the skillet and cook for 4-5 minutes, stirring often, until softened and beginning to brown. Add garlic and cook 1 minute more. Add the brussels sprouts, increase heat to medium-high, and cook for about 10 minutes, stirring occasionally. The brussels sprouts should be crisp-tender and browned in spots. Add the chorizo and sliced almonds. Drain raisins and add to the skillet. Cook, stirring, 3 minutes more, until mixture is heated through. Season with salt and black pepper to taste."], ["cuisine_type", "American"], ["cooking_time", 25], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian"], ["servings", 3], ["meal_type", "Sides"], ["created_at", "2020-11-12 13:11:18.625575"], ["updated_at", "2020-11-12 13:11:18.625575"], ["image", "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Lamb Chops with Mashed Peas & Mint"], ["ingredients", "4 teaspoons extra-virgin olive oil, divided * 3 large 3 large cloves garlic, chopped * 2 cups 2 cups frozen peas (12 ounces) thawed * 3/4 cup water, plus more as needed * 3/4 teaspoon salt divided * 1/2 teaspoon freshly ground pepper * 8 eaches 8 lamb loin chops (1 1/2-2 pounds total) trimmed * 1 tablespoon chopped fresh mint"], ["instructions", "Preheat oven to 375 degrees F. * Heat 2 teaspoons oil in a medium saucepan over medium heat. Add garlic and cook, stirring, until fragrant and slightly softened, about 1 minute. Stir in peas, 3/4 cup water and 1/4 teaspoon salt. Bring to a boil. Reduce heat to medium, cover and cook for 5 minutes. Remove from heat. * Sprinkle the remaining 1/2 teaspoon salt and pepper on both sides of lamb chops. Heat the remaining 2 teaspoons oil in a large, ovenproof, nonstick skillet over medium-high heat. Add the chops and cook until browned on one side, 1 1/2 to 2 minutes. Turn them over and transfer the pan to the oven. * Roast until an instant-read thermometer inserted horizontally into a chop registers 135 degrees F for medium-rare, 8 to 12 minutes, depending on thickness. * Meanwhile, transfer the pea mixture to a blender or food processor. Add mint; pulse until coarsely pureed, adding additional water a tablespoon at a time for desired consistency and scraping down the sides as needed. * Serve the lamb with the pea puree."], ["cuisine_type", "American"], ["cooking_time", 30], ["tags", "Dairy Free * Gluten Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.629831"], ["updated_at", "2020-11-12 13:11:18.629831"], ["image", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2019%2F08%2F27044833%2F3758136.jpg"], ["sourceURL", "http://www.eatingwell.com/recipe/250593/lamb-chops-with-mashed-peas-mint/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Citrus Salad with Dates"], ["ingredients", "4 tablespoons olive oil * 2 tablespoons vinegar (champagne vinegar, sherry vinegar, red wine vinegar, apple cider vinegar) * 2 tablespoons orange juice * 1 tablespoon lemon juice or lime * 1 tablespoon shallot (finely chopped) or sub 1 garlic clove, finely minced * 1/4 teaspoon salt (more to taste) * 1/4 teaspoon pepper * 1/4 cup coconut flakes, toasted * 1/4 cup thinly sliced red onion * 3-5 oranges, peeled and sliced * 2-3 large handfuls of baby arugula (or baby spinach) * 1/4 cup chooped or sliced medjool dates * 1/4 cup pistachios, pecan pieces or sliced almonds * fresh mint or italian parsley"], ["instructions", "Stir everything together in a small bowl. * Toast the coconut (in a dry skillet over low heat) and soak red onions in a bowl of salted water. * Cut the rinds off the oranges. Slice into 1/4 inch thick rounds. * Place the arugula (or baby spinach) on a platter to form the base of the salad. Layer the orange slices over top. Sprinkle with the chopped dates, nuts and toasted coconut. * Drain and scatter the red onions. Add some mint leaves and spoon the dressing over top * Add cracked pepper as needed. * Serve immediately."], ["cuisine_type", "Moroccan"], ["cooking_time", 25], ["tags", "Vegan * Vegetarian * Dairy Free"], ["servings", -2], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.634260"], ["updated_at", "2020-11-12 13:11:18.634260"], ["image", "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/citrus-salad/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Whiskey Mussels en Papillote Recipe"], ["ingredients", "2 pounds Live Mussel debearded and scrubbed * 1 medium Shallot finely diced * 1/4 ounce Dried Tarragon, fresh sprigs * 1 tablespoon Lemon Zest approximiately 1 lemon's worth * 1/4 cup Irish Whiskey such as Bushmills * 2 tablespoons Olive Oil * Sea Salt * Black Pepper, freshly ground"], ["instructions", "Preheat oven to 450°F. * Lay out two long sheets (~24 inches each) of heavy duty foil; fold each one in half. Set half of the mussels on each piece of foil, then cup the edges of the foil to hold everything in for now. * Scatter half of the diced shallots over each portion. Pull the leaves from the tarragon sprigs and scatter over the mussels, along with the lemon zest. Pour half of the whiskey and olive oil over each portion. Sprinkle each with a few pinches of salt and pepper. * Bring the edges of the foil up and fold to form a packet that encompasses everything inside. Set the packets in a baking dish or on a baking sheet (to catch any juices that escape). Slide into preheated oven and bake for 10-12 minutes, or until all of the shells have opened (discard any that do not open). * In the meantime, combine all of the ingredients for the vinaigrette in a small jar with a lid and shake hard to combine. * Carefully open each parcel (the steam will be hot!). Set each parcel on a deep-sided serving plate or shallow bowl and open just before you eat, letting the steam waft up into your nose. You could also transfer each portion directly to the serving vessel. Shake up the vinaigrette again, and pour over the mussels before diving in, preferably with some crusty bread for mopping up the juices and a dram of whiskey to accent the flavors."], ["cuisine_type", "French"], ["cooking_time", 30], ["tags", "Seafood * Egg Free"], ["servings", 2], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.638567"], ["updated_at", "2020-11-12 13:11:18.638567"], ["image", "https://food-fanatic-res.cloudinary.com/iu/s--f_2c4Urb--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1394132286/whiskey-mussels-en-papilotte-image.jpg"], ["sourceURL", "https://www.foodfanatic.com/gallery/whiskey-mussels-en-papilotte-image/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sesame-Crusted Tuna Steaks"], ["ingredients", "4 tuna steaks (1-inch thick, about 6 ounces each) * 1/3 cup white sesame seeds * 1/4 cup black sesame seeds * 2 teaspoons toasted sesame oil * 2 tablespoons soy sauce * Freshly ground black pepper * Vegetable oil"], ["instructions", "Combine the white and black sesame seeds on a plate and spread in a thin layer. * Whisk the sesame oil and soy sauce together in a small bowl. Using a spoon, drizzle a little of the mixture over each tuna steak and rub with the back of a spoon to cover the entire surface. Season with a little black pepper, then turn the steaks and repeat the process. * Dredge the tuna steaks in sesame seeds (sides included), pressing gently to ensure they cover the fish evenly and completely. * Film the bottom of a heavy pan with a small amount of vegetable oil, then heat over medium-high heat until shimmering. * Working in batches to avoid overcrowding the pan, add 2 of the tuna steaks and sear just long enough for the white sesame seeds to develop a little golden color, 1 to 1-1/2 minutes per side. If desired, you can use tongs to gently support the steaks and sear the edges of the steaks all the way around as well, 15 to 20 seconds total should be enough time. * Transfer the tuna to a cutting board and repeat the process with the remaining steaks. * Cut the tuna steaks into thin slices and arrange over fresh greens. Serve with soy sauce and wasabi for dipping, steamed rice on the side and a garnish of sliced scallions."], ["cuisine_type", "Asian"], ["cooking_time", 10], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian"], ["servings", 4], ["meal_type", "Appetizer"], ["created_at", "2020-11-12 13:11:18.642883"], ["updated_at", "2020-11-12 13:11:18.642883"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/sesame-crusted-tuna-steaks.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/sesame-crusted-tuna-steaks/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Shrimp Tacos with Corn and Avocado Salsa"], ["ingredients", "1-1/4 lbs large shrimp, peeled, deveined, tails removed * 2 tablespoons olive oil * 1 clove garlic, very finely chopped * 1 teaspoon ground cumin * 1 teaspoon ground coriander * 1 teaspoon Old Bay Seasoning (optional) * 8 taco shells (or 6-inch corn tortillas) * 1/2 cup queso fresco (or finely shredded Monterey Jack cheese) * 2 ears sweet corn, kernels removed (about 1 cup) * 1 large, ripe tomato, seeded and chopped (about 1/2 cup) * 1/4 cup red onion, chopped * 1 jalapeño pepper, seeded and chopped * 1 tablespoon freshly squeezed lime juice * 2 tablespoons fresh cilantro, chopped * 1 medium Haas avocado, peeled and cut into small cubes * Salt and freshly ground black pepper"], ["instructions", "Place the shrimp in a large bowl and toss with the olive oil, garlic, cumin, coriander and Old Bay Seasoning (if you don't use the Old Bay, add a little salt and pepper). Set aside. * Combine the corn, tomato, red onion, jalapeño, lime juice and cilantro. Season to taste with salt and pepper, then add the avocado, taste and season again. Set aside. * Note: If your corn is very fresh and tender, you can use the kernels raw. If not, place them in a shallow dish, cover and microwave for 1-1/2 to 2 minutes on high. Allow to cool completely before proceeding with the recipe. You can also use frozen corn if fresh is not available. Just thaw and blot away any excess moisture with a paper towel before adding to the salsa. * Heat a heavy skillet over medium-high heat. Add the shrimp and sauté until pink and opaque, about 2 minutes. * To serve, spoon a portion of the corn salsa into the bottom of each taco shell. Top with shrimp and a sprinkling of cheese. Serve immediately."], ["cuisine_type", "Mexican"], ["cooking_time", 25], ["tags", "Seafood * Healthy"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.647095"], ["updated_at", "2020-11-12 13:11:18.647095"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/shrimp-tacos-corn-avocado-salsa.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/shrimp-tacos-corn-avocado-salsa/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Vegan Ramen with Miso Shiitake Broth"], ["ingredients", "1 large onion-diced * 2 smashed garlic cloves * 1-2 tablespoon olive oil * 4 cups veggie stock * 4 cups water * 1/2 cup dried shiitake mushrooms * 1 sheet kombu seaweed * 1/8 cup mirin * 1-2 tablespoons white miso paste * pepper to taste * sriracha or hot chili oil for spicy (optional) * 6-8 ounces ramen noodles * 8 ounces cubed crispy tofu * optional veggies: steamed or sauteed bok choy, fresh spinach, shredded carrots or cabbage, roasted sweet potato, sauteed mushrooms, baby corn, bamboo shoots, enoki mushrooms, kimchi, daikon radish, pickled radish, fresh herbs, scallion, toasted sesame seeds"], ["instructions", "Toss bite-sized pieces of veggies with a little olive oil, salt, and pepper and place on a parchment-lined sheet pan and roast in a 400F oven until fork tender. * Broth: Over medium-high heat, saute the onion in 1 tablespoon oil until tender about 3 minutes. Turn heat to medium, add the smashed garlic cloves and continue cooking the onions until they are deeply golden brown. Add the veggie stock, water, dried shiitakes, a sheet of kombu and mirin. Bring to a simmer. * Simmer for 25-30 minutes uncovered on med heat, then remove the kombu. Add the miso, and pepper to taste. Adjust salt to your liking. Keep warm. * Cook the ramen noodles in a pot of boiling water. Drain. Toss with sesame oil to keep separated. * Prepare optional veggies for toppings. Use a combo of fresh and cooked veggies for the best texture. Make the crispy tofu. * Fill bowls with cooked noodles, crispy tofu and other veggies. Pour the flavorful shiitake broth over top. Garnish with a little drizzle of sesame oil and sriracha. Top with scallions and sesame seeds."], ["cuisine_type", "Asian"], ["cooking_time", 40], ["tags", "Vegan * Vegetarian * Dairy Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.651080"], ["updated_at", "2020-11-12 13:11:18.651080"], ["image", "https://www.feastingathome.com/wp-content/uploads/2012/11/vegan-ramen-14-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/smoked-shiitake-ramen/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sweet and Sour Chicken with Pineapple"], ["ingredients", "1-1/4 lbs chicken tenderloins * 1-1/2 tablespoons cornstarch * Salt and freshly ground black pepper * 2-1/2 tablespoons cooking oil, divided * 2 sweet bell peppers (1 red, 1 green), cut into 1-inch chunks * 1 clove garlic, minced * 1 tablespoon minced fresh ginger * 1 cup fresh pineapple cut into 3/4-inch chunks * 1/4 cup ketchup * 1/4 cup pineapple juice * 2 tablespoons rice vinegar * 2 tablespoons light brown sugar * 1/4 teaspoon sriracha (optional)"], ["instructions", "Trim any white tendons from the chicken tenderloins, cut them crosswise into 1-inch pieces, and place them in a shallow bowl. * Season lightly with salt and pepper, sprinkle with the cornstarch and stir until the chicken pieces are thoroughly coated. Set aside. * Make the sauce by combining the ketchup, pineapple juice, rice vinegar, light brown sugar, and sriracha (if using) in a microwave-safe measuring cup. Microwave on high for 1 minute, then stir until the brown sugar is dissolved. * Heat 1 tablespoon of oil in a large nonstick frying pan over medium-high heat. Add the bell peppers and stir-fry until crisp-tender, 3 to 4 minutes. Season lightly with salt and pepper, transfer to a plate and set aside. Add the remaining 1-1/2 tablespoons of oil to the pan, swirl to coat and add the garlic and ginger. * Stir-fry for 30 seconds, then add the chicken. Separate the pieces with a spatula and spread to the edges of the pan. * Allow the chicken to cook for about 30 seconds undisturbed, then begin stir-frying until golden on all sides, 3 to 4 minutes longer. Return the peppers to the pan, add the pineapple, and stir in the sauce. Continue cooking for 1 to 2 minutes until the sauce has thickened and all the ingredients are nicely glazed. * Serve over steamed white or brown rice and garnish with scallions and sesame seeds if desired."], ["cuisine_type", "Asian"], ["cooking_time", 35], ["tags", "Poultry * Egg Free"], ["servings", 4], ["meal_type", "Main DIsh"], ["created_at", "2020-11-12 13:11:18.655387"], ["updated_at", "2020-11-12 13:11:18.655387"], ["image", "https://www.mygourmetconnection.com/wp-content/uploads/sweet-sour-chicken.jpg"], ["sourceURL", "https://www.mygourmetconnection.com/sweet-and-sour-chicken-with-pineapple/"], ["rating", 0]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Grilled Salmon Kebabs"], ["ingredients", "2 tbsp chopped fresh oregano * 2 tsp sesame seeds * 1 tsp ground cumin * 1/4 tsp crushed red pepper flakes * 1-1/2 pounds skinless wild salmon fillet, cut into 1-inch pieces * 2 lemons, very thinly sliced into rounds * olive oil cooking spray * 1 tsp kosher salt * 16 bamboo skewers soaked in water 1 hour"], ["instructions", "Heat the grill on medium heat and spray the grates with oil. * Mix oregano, sesame seeds, cumin, and red pepper flakes in a small bowl to combine; set spice mixture aside. * Beginning and ending with salmon, thread salmon and folded lemon slices onto 8 pairs of parallel skewers to make 8 kebabs total. * Spray the fish lightly with oil and season kosher salt and the reserved spice mixture. * Grill the fish, turning occasionally, until fish is opaque throughout, about 8 to 10 minutes total."], ["cuisine_type", "American"], ["cooking_time", 25], ["tags", "Fish * Healthy * Egg Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.669440"], ["updated_at", "2020-11-12 13:11:18.669440"], ["image", "https://www.skinnytaste.com/wp-content/uploads/2013/06/grilled-salmon-kabobs-550x365.jpg"], ["sourceURL", "https://www.skinnytaste.com/these-lovely-grilled-salmon-and-lemon/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sweet Potato Hash Protein Bowl"], ["ingredients", "2 tablespoons olive oil * 1 tablespoon minced garlic * 1 large sweet potato, peeled * 1 red pepper, finely diced * 1/2 yellow onion, finely diced * 4 chicken sausages, precooked * 4 cups kale, deboned * salt and pepper to taste (be generous!) * 2 tablespoons balsamic vinegar"], ["instructions", "Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat. * Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this. * Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent. * Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar. * Give your sweet potato hash one last toss and enjoy!"], ["cuisine_type", "American"], ["cooking_time", 35], ["tags", "Dairy Free * Gluten Free * Egg Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.673887"], ["updated_at", "2020-11-12 13:11:18.673887"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Homemade Guacamole"], ["ingredients", "3 large avocados ripe * 3 cloves garlic, smashed and minced (~1.5 tablespoons) * 1/3 medium red onion, finely diced * 1 medium lime, juice (or more, to taste) * 1/4 teaspoon sea salt (or more, to taste) * 2 tablespoons cilantro, freshly chopped * optional: 1/2 large jalapeno, finely diced"], ["instructions", "1. First, remove the flesh of the avocados and place it into a medium-size bowl. * Use a fork to mash avocado flesh until smooth. Alternatively, you can leave some chunks, if you prefer a more chunky guacamole. * Next, add in minced garlic, finely diced onion, lime juice, sea salt, and cilantro, and mix until combined. * Give guacamole a taste test and adjust the salt and lime juice depending on what it needs. * Serve with your favorite tortilla chips!"], ["cuisine_type", "American"], ["cooking_time", 10], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian * Egg Free * Nut Free"], ["servings", 6], ["meal_type", "Sides"], ["created_at", "2020-11-12 13:11:18.678487"], ["updated_at", "2020-11-12 13:11:18.678487"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg"], ["sourceURL", "https://fitfoodiefinds.com/classic-guacamole/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Instant Pot Honey Garlic Chicken Thighs"], ["ingredients", "2 lbs. chicken thighs, skin-on * 1.5 tablespoons olive oil * 1 tablespoon minced garlic * 1/3 cup honey * 2 tablespoon soy sauce (or tamari) * 1 teaspoon chili garlic sauce * 1/2 tablespoon cornstarch (optional) * 1 teaspoon sesame seeds (optional)"], ["instructions", "First, use a few pieces of paper towel to remove as much moisture as possible from your chicken thighs. * Next, turn on the Instant Pot’s sauté feature. Sear both sides of each chicken thigh for 2-3 minutes to give them a nice brown. * While the chicken thighs are sauteing, prepare the honey garlic sauce. Mix together minced garlic, honey, soy sauce, and chili garlic sauce. * Once the chicken thighs are done browning, turn off the sauté function and then pour on the honey garlic sauce. * Close your Instant Pot and turn the valve to seal. Turn your Instant Pot to manual > high pressure > and set the timer for 5 minutes. It will take around 10 minutes for the pressure to build before it starts counting down from 5 minutes. * When the timer goes off, quick release your Instant Pot by opening the valve. Remove the lid and then remove chicken thighs. * Pour the sauce over the chicken thighs or you have the option to thicken your sauce with cornstarch. To thicken turn on the Instant Pot’s saute feature (you need the heat to ignite the thickening agent) and then sprinkle in cornstarch. * Whisk until the sauce thickens.Pour the sauce over the chicken and serve with sesame seeds and your favorite grain and veggies."], ["cuisine_type", "Asian"], ["cooking_time", 30], ["tags", "Dairy Free * Gluten Free * Egg Free"], ["servings", 6], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.682610"], ["updated_at", "2020-11-12 13:11:18.682610"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2020/01/thighs.jpg"], ["sourceURL", "https://fitfoodiefinds.com/instant-pot-honey-garlic-chicken-thighs/"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "French Potato Salad"], ["ingredients", "2 pounds fresh potatoes, sliced 1/4 inch thick * 2 tablespoons of sea salt * 2 large garlic cloves * 1 tablespoon digon mustard * 1/4 cup champagne vinegar or white wine vinegar * 1/3 cup olive oil * 1/4 teaspoon black pepper * 1/4 cup fresh flat-leaf parsley, roughly chopped * 2 tablespoons fresh tarragon, roughly chopped * 2 tablespoons fresh chives, minced"], ["instructions", "Place the sliced potatoes in a large saucepan cover completely with cold water. Sprinkle in salt and bring to a boil. Add the 2 cloves of garlic, reduce heat and simmer 5 minutes or until potatoes are just tender. * White potatoes are simmering, make the vinaigrette by whisking together dijon, oil, vinegar and  pepper in a small bowl. * Drain potatoes and garlic. Place potatoes mostly single layer on a baking sheet to cool. Mince the cooked garlic and add to the vinaigrette. Drizzle the vinaigrette evenly over the warm potatoes. Let sit at room temperature for about 10-15 minutes. * Add to a serving bowl gently tossing the chopped fresh herbs. Serve at room temp or refrigerate and chill."], ["cuisine_type", "American"], ["cooking_time", 15], ["tags", "Vegan * Vetarian * Dairy Free"], ["servings", 6], ["meal_type", "Sides"], ["created_at", "2020-11-12 13:11:18.686695"], ["updated_at", "2020-11-12 13:11:18.686695"], ["image", "https://www.feastingathome.com/wp-content/uploads/2020/09/French-Potato-Salad-Recipe_-3-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/french-potato-salad/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Citrus Salad with Dates V2"], ["ingredients", "4 tablespoons olive oil * 2 tablespoons vinegar (champagne vinegar, sherry vinegar, red wine vinegar, apple cider vinegar) * 2 tablespoons orange juice * 1 tablespoon lemon juice or lime * 1 tablespoon shallot (finely chopped) or sub 1 garlic clove, finely minced * 1/4 teaspoon salt (more to taste) * 1/4 teaspoon pepper * 1/4 cup coconut flakes, toasted * 1/4 cup thinly sliced red onion * 3-5 oranges, peeled and sliced * 2-3 large handfuls of baby arugula (or baby spinach) * 1/4 cup chooped or sliced medjool dates * 1/4 cup pistachios, pecan pieces or sliced almonds * fresh mint or italian parsley"], ["instructions", "Stir everything together in a small bowl. * Toast the coconut (in a dry skillet over low heat) and soak red onions in a bowl of salted water. * Cut the rinds off the oranges. Slice into 1/4 inch thick rounds. * Place the arugula (or baby spinach) on a platter to form the base of the salad. Layer the orange slices over top. Sprinkle with the chopped dates, nuts and toasted coconut. * Drain and scatter the red onions. Add some mint leaves and spoon the dressing over top * Add cracked pepper as needed. * Serve immediately."], ["cuisine_type", "Moroccan"], ["cooking_time", 25], ["tags", "Vegan * Vegetarian * Dairy Free"], ["servings", -2], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.691023"], ["updated_at", "2020-11-12 13:11:18.691023"], ["image", "https://www.feastingathome.com/wp-content/uploads/2020/04/Orange-salad-with-dates-5-1024x1536.jpg"], ["sourceURL", "https://www.feastingathome.com/citrus-salad/"], ["rating", 0]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Salmon with Sesame-Ginger Quinoa V2"], ["ingredients", "1 1/2 tablespoons toasted sesame oil * 1 tablespoon grated peeled ginger, plus 1 inch thinly sliced * 1 cup quinoa, rinsed * Kosher salt * 3 heads baby bok choy (about 12 ounces), trimmed and thinly sliced * 1 red jalapeno pepper, seeded (1/2 minced, 1/2 thinly sliced) * 3 scallions, thinly sliced * 4 6-ounce skinless center-cut salmon fillets (preferably wild) * 3 tablespoons low-sodium soy sauce * Juice of 1 lemon * 1/4 cup fresh cilantro, torn"], ["instructions", "Heat 1/2 tablespoon sesame oil in a medium saucepan over medium heat. Add the grated ginger; cook until slightly softened, 1 minute. Add the quinoa; cook, stirring occasionally, until lightly toasted, 2 minutes. Add 1 1/4 cups water and 1/4 teaspoon salt. Bring to a boil, then reduce the heat to medium low. Cover and cook until the water is absorbed and the quinoa is tender, about 12 minutes. * Add the bok choy, minced jalapeno and half of the scallions to the quinoa. Cook, covered, until the bok choy wilts, about 7 minutes. * Meanwhile, bring 3/4 cup water, the sliced ginger and sliced jalapeno to a boil in a large skillet over medium heat. Add the salmon. Cover and cook until just cooked through, 5 minutes. Transfer to a plate using a slotted spatula. Stir the soy sauce, lemon juice, remaining scallions and 1 tablespoon sesame oil into the poaching liquid. * Fluff the quinoa; season with salt. Serve with the salmon; drizzle with the soy sauce mixture and top with the cilantro."], ["cuisine_type", "Asian"], ["cooking_time", 30], ["tags", "Fish * Healthy"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.696059"], ["updated_at", "2020-11-12 13:11:18.696059"], ["image", "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/16/3/FNM_010116-Salmon-with-Sesame-Ginger-Quinoa-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1450719022163.jpeg"], ["sourceURL", "https://www.foodnetwork.com/recipes/emilia-cirker/salmon-with-sesame-ginger-quinoa-3364685"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Homemade Guacamole V2"], ["ingredients", "3 large avocados ripe * 3 cloves garlic, smashed and minced (~1.5 tablespoons) * 1/3 medium red onion, finely diced * 1 medium lime, juice (or more, to taste) * 1/4 teaspoon sea salt (or more, to taste) * 2 tablespoons cilantro, freshly chopped * optional: 1/2 large jalapeno, finely diced"], ["instructions", "1. First, remove the flesh of the avocados and place it into a medium-size bowl. * Use a fork to mash avocado flesh until smooth. Alternatively, you can leave some chunks, if you prefer a more chunky guacamole. * Next, add in minced garlic, finely diced onion, lime juice, sea salt, and cilantro, and mix until combined. * Give guacamole a taste test and adjust the salt and lime juice depending on what it needs. * Serve with your favorite tortilla chips!"], ["cuisine_type", "American"], ["cooking_time", 10], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian * Egg Free * Nut Free"], ["servings", 6], ["meal_type", "Sides"], ["created_at", "2020-11-12 13:11:18.700972"], ["updated_at", "2020-11-12 13:11:18.700972"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/03/classic-guacamole.jpg"], ["sourceURL", "https://fitfoodiefinds.com/classic-guacamole/"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Sweet Potato Hash Protein Bowl V2"], ["ingredients", "2 tablespoons olive oil * 1 tablespoon minced garlic * 1 large sweet potato, peeled * 1 red pepper, finely diced * 1/2 yellow onion, finely diced * 4 chicken sausages, precooked * 4 cups kale, deboned * salt and pepper to taste (be generous!) * 2 tablespoons balsamic vinegar"], ["instructions", "Place 1 tablespoon of olive oil in a nonstick skillet and heat over medium/high heat. * Next, prepare your sweet potato hash browns by grating your sweet potato with a cheese grater. You’ll want to use a medium grate for this. * Add in the sweet potato hash, onion, garlic, red pepper, and sliced chicken sausages to the skillet. Sauté for about 5-7 minutes or until onions become translucent. * Add in kale and a tablespoon more of olive oil (or more if needed) and sauté until kale has wilted and reached desired texture. Season with salt and pepper and then add in 2 tablespoons of balsamic vinegar. * Give your sweet potato hash one last toss and enjoy!"], ["cuisine_type", "American"], ["cooking_time", 35], ["tags", "Dairy Free * Gluten Free * Egg Free"], ["servings", 4], ["meal_type", "Main Dish"], ["created_at", "2020-11-12 13:11:18.705206"], ["updated_at", "2020-11-12 13:11:18.705206"], ["image", "https://fitfoodiefinds.com/wp-content/uploads/2016/04/sweet-potato-kale-hash.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "ingredients", "instructions", "cuisine_type", "cooking_time", "tags", "servings", "meal_type", "created_at", "updated_at", "image", "sourceURL", "rating") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) RETURNING "id"[0m  [["title", "Brussels Sprouts with Chorizo, Raisins and Almonds V2"], ["ingredients", "1/4 cup (1oz) raisins (dark or golden) * 1lb brussels sprouts * 2 teaspoons olive oil * 1/4 cup finely chopped yellow onion * 1 clove of garlic, minced * 3oz soy chorizo, crumbled * 2 tablespoons (1/2 oz) sliced almonds * 1/8 teaspoon kosher salt * freshly ground black pepper, to taste"], ["instructions", "Place raisins in a small bowl and cover with hot water. * Trim the stems from the brussels sprouts and remove the outer leaves. Using a slicing attachment on a food processor, slice the brussels sprouts. Set aside. * Heat olive oil in a nonstick skillet over medium-low heat. Place onions in the skillet and cook for 4-5 minutes, stirring often, until softened and beginning to brown. Add garlic and cook 1 minute more. Add the brussels sprouts, increase heat to medium-high, and cook for about 10 minutes, stirring occasionally. The brussels sprouts should be crisp-tender and browned in spots. Add the chorizo and sliced almonds. Drain raisins and add to the skillet. Cook, stirring, 3 minutes more, until mixture is heated through. Season with salt and black pepper to taste."], ["cuisine_type", "American"], ["cooking_time", 25], ["tags", "Dairy Free * Gluten Free * Vegan * Vegetarian"], ["servings", 3], ["meal_type", "Sides"], ["created_at", "2020-11-12 13:11:18.709305"], ["updated_at", "2020-11-12 13:11:18.709305"], ["image", "http://farm7.staticflickr.com/6098/6278801376_d6de347934_z.jpg"], ["sourceURL", "http://www.carascravings.com/2012/01/brussels-sprouts-with-chorizo-raisins-and-almonds.html"], ["rating", 0]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/recipes" for ::1 at 2020-11-12 08:11:26 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 85ms (Views: 50.5ms | ActiveRecord: 23.9ms | Allocations: 19257)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:12:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 2.7ms | Allocations: 6289)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:14:07 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (25.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 45ms (Views: 19.0ms | ActiveRecord: 25.9ms | Allocations: 6289)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:14:54 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (13.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 27ms (Views: 13.8ms | ActiveRecord: 13.0ms | Allocations: 6289)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:24:11 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (19.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 48.1ms | ActiveRecord: 19.2ms | Allocations: 6359)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:32:26 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 1.4ms | Allocations: 6359)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:32:26 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (18.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 76ms (Views: 56.1ms | ActiveRecord: 18.8ms | Allocations: 6271)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:32:26 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 89ms (Views: 86.7ms | ActiveRecord: 1.9ms | Allocations: 6274)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:32:27 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 2.0ms | Allocations: 6271)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:42:32 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 1.4ms | Allocations: 6371)
+
+
+Started DELETE "/144" for ::1 at 2020-11-12 08:42:41 -0500
+  
+ActionController::RoutingError (No route matches [DELETE] "/144"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-12 08:42:51 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (18.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 33ms (Views: 14.4ms | ActiveRecord: 18.5ms | Allocations: 6270)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 08:46:36 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (7.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 9.9ms | ActiveRecord: 7.1ms | Allocations: 6271)
+
+
+Started DELETE "/144" for ::1 at 2020-11-12 08:46:44 -0500
+  
+ActionController::RoutingError (No route matches [DELETE] "/144"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-12 08:48:09 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 80ms (Views: 55.2ms | ActiveRecord: 13.4ms | Allocations: 18101)
+
+
+Started DELETE "/144" for ::1 at 2020-11-12 08:48:17 -0500
+  
+ActionController::RoutingError (No route matches [DELETE] "/144"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-11-12 08:48:44 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/designerjina/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.8ms | Allocations: 315)
+Completed 200 OK in 41ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 1595)
+
+
+Started GET "/routes" for ::1 at 2020-11-12 08:48:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-12 08:53:04 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (56.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 172ms (Views: 78.3ms | ActiveRecord: 90.4ms | Allocations: 18142)
+
+
+Started DELETE "/144" for ::1 at 2020-11-12 08:53:10 -0500
+  
+ActionController::RoutingError (No route matches [DELETE] "/144"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-12 09:17:02 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (4.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 12.4ms | ActiveRecord: 4.2ms | Allocations: 6361)
+
+
+Started DELETE "/145" for ::1 at 2020-11-12 09:21:13 -0500
+  
+ActionController::RoutingError (No route matches [DELETE] "/145"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/recipes" for ::1 at 2020-11-12 09:22:13 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (62.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 122ms (Views: 55.7ms | ActiveRecord: 62.1ms | Allocations: 6271)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:24:23 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 107ms (Views: 104.7ms | ActiveRecord: 1.6ms | Allocations: 6271)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:24:27 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 102ms (Views: 62.6ms | ActiveRecord: 38.8ms | Allocations: 6272)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:24:33 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (42.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 144ms (Views: 100.6ms | ActiveRecord: 42.2ms | Allocations: 6272)
+
+
+Started DELETE "/recipes/144" for ::1 at 2020-11-12 09:24:42 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"144"}
+  [1m[35m (26.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[36mRecipe Create (1.8ms)[0m  [1m[32mINSERT INTO "recipes" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2020-11-12 14:24:42.936982"], ["updated_at", "2020-11-12 14:24:42.936982"]]
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[35m (5.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Destroy (1.0ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 146]]
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Load (2.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:26:in `destroy'
+Completed 200 OK in 158ms (Views: 16.3ms | ActiveRecord: 40.8ms | Allocations: 12594)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:24:49 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 1.8ms | Allocations: 6271)
+
+
+Started DELETE "/recipes/144" for ::1 at 2020-11-12 09:25:32 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"144"}
+  [1m[35m (22.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2020-11-12 14:25:32.144125"], ["updated_at", "2020-11-12 14:25:32.144125"]]
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:24:in `destroy'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Destroy (0.7ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 147]]
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[35m (10.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Load (37.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:26:in `destroy'
+Completed 200 OK in 104ms (Views: 22.1ms | ActiveRecord: 71.5ms | Allocations: 10480)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:25:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 1.1ms | Allocations: 6271)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:29:57 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (55.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 527ms (Views: 75.1ms | ActiveRecord: 441.6ms | Allocations: 18123)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:30:09 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (11.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 474ms (Views: 293.5ms | ActiveRecord: 160.1ms | Allocations: 18024)
+
+
+Started DELETE "/recipes/144" for ::1 at 2020-11-12 09:30:16 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"144"}
+  [1m[36mRecipe Load (28.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 144], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:42:in `find_recipe'
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Destroy (3.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 144]]
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:26:in `destroy'
+Completed 200 OK in 59ms (Views: 13.3ms | ActiveRecord: 35.1ms | Allocations: 8687)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:30:23 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 3.7ms | Allocations: 6012)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:34:11 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (88.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 104ms (Views: 14.8ms | ActiveRecord: 88.5ms | Allocations: 6012)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:35:08 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 2.1ms | Allocations: 6012)
+
+
+Started DELETE "/recipes/145" for ::1 at 2020-11-12 09:35:14 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"145"}
+  [1m[36mRecipe Load (1.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 145], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:42:in `find_recipe'
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Destroy (85.1ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 145]]
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[35m (60.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:25:in `destroy'
+  [1m[36mRecipe Load (35.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:26:in `destroy'
+Completed 200 OK in 212ms (Views: 15.4ms | ActiveRecord: 183.8ms | Allocations: 8258)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:39:25 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.5ms | Allocations: 5753)
+
+
+Started PATCH "/recipes/126" for ::1 at 2020-11-12 09:39:36 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"rating"=>1, "id"=>"126", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 347ms (ActiveRecord: 0.0ms | Allocations: 105600)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fc953e9f8a8>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:18:in `update'
+Started GET "/recipes" for ::1 at 2020-11-12 09:39:55 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (87.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 104ms (Views: 15.8ms | ActiveRecord: 87.8ms | Allocations: 5752)
+
+
+Started GET "/recipes" for ::1 at 2020-11-12 09:40:22 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (38.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 75ms (Views: 35.6ms | ActiveRecord: 38.2ms | Allocations: 5753)
+
+
+Started PATCH "/recipes/126" for ::1 at 2020-11-12 09:42:42 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"rating"=>1, "id"=>"126", "recipe"=>{"rating"=>1}}
+Completed 500 Internal Server Error in 916ms (ActiveRecord: 0.0ms | Allocations: 105573)
+
+
+  
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x00007fc957411950>
+Did you mean?  recipe_url):
+  
+app/controllers/recipes_controller.rb:18:in `update'
+Started GET "/recipes" for ::1 at 2020-11-12 09:42:47 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (29.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:5:in `index'
+Completed 200 OK in 58ms (Views: 28.5ms | ActiveRecord: 29.4ms | Allocations: 5752)
+
+
