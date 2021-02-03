@@ -9,4 +9,4 @@ Jina Strickland and Amy Sikhammountry
 
 <h3> Backend Technology: </h3>
 
-Ruby, Ruby on Rails
+Ruby and Ruby on Rails
